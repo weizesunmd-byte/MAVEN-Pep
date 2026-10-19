@@ -1,0 +1,184 @@
+{
+  "schema": "maven.model_release.v1",
+  "release_tag": "models-v1",
+  "release_url": "https://github.com/weizesunmd-byte/MAVEN-Pep/releases/tag/models-v1",
+  "license": "MAVEN-Pep Academic Research License 1.0",
+  "base_model": {
+    "model_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "directory": "Qwen3-8B",
+    "license": "Apache-2.0",
+    "files": [
+      {
+        "path": "model-00001-of-00005.safetensors",
+        "size": 3996250744,
+        "sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00001-of-00005.safetensors"
+      },
+      {
+        "path": "model-00002-of-00005.safetensors",
+        "size": 3993160032,
+        "sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00002-of-00005.safetensors"
+      },
+      {
+        "path": "model-00003-of-00005.safetensors",
+        "size": 3959604768,
+        "sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00003-of-00005.safetensors"
+      },
+      {
+        "path": "model-00004-of-00005.safetensors",
+        "size": 3187841392,
+        "sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00004-of-00005.safetensors"
+      },
+      {
+        "path": "model-00005-of-00005.safetensors",
+        "size": 1244659840,
+        "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model-00005-of-00005.safetensors"
+      },
+      {
+        "path": "config.json",
+        "size": 728,
+        "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/config.json"
+      },
+      {
+        "path": "generation_config.json",
+        "size": 239,
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json"
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "size": 32878,
+        "sha256": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/model.safetensors.index.json"
+      }
+    ]
+  },
+  "archives": [
+    {
+      "path": "MAVEN-Pep-r1.zip",
+      "size": 161626227,
+      "sha256": "d29d9aeef9bf2df8ba49f4ad8f95bebb686a8a469121ba2db31a872c31e8e2b5",
+      "component": "r1",
+      "url": "https://github.com/weizesunmd-byte/MAVEN-Pep/releases/download/models-v1/MAVEN-Pep-r1.zip",
+      "files": [
+        {
+          "path": "r1/adapter_config.json",
+          "size": 1082,
+          "sha256": "823da253d5978e1b3940627796073d3251867a9f13b8849c66abff7d2b52bc9f"
+        },
+        {
+          "path": "r1/adapter_model.safetensors",
+          "size": 174655536,
+          "sha256": "c347c41a29570367f4443eb8de4a4a2c6265c1d2d1290722b334a51042e48f9a"
+        }
+      ]
+    },
+    {
+      "path": "MAVEN-Pep-r6.zip",
+      "size": 161603659,
+      "sha256": "fb2fadda12f425f12ba6cf2f76e7d0cf6658116920fbaa3a8f1d811ebf268acf",
+      "component": "r6",
+      "url": "https://github.com/weizesunmd-byte/MAVEN-Pep/releases/download/models-v1/MAVEN-Pep-r6.zip",
+      "files": [
+        {
+          "path": "r6/adapter_config.json",
+          "size": 1083,
+          "sha256": "1b9993dfe8dbc55f396982e659455590d5431463cf0bc505c5a8214c795c3655"
+        },
+        {
+          "path": "r6/adapter_model.safetensors",
+          "size": 174655536,
+          "sha256": "790401e5906dd751a59ef2111bef12ccd58f07d9d9e3e1f9b124dda261164b9c"
+        }
+      ]
+    },
+    {
+      "path": "MAVEN-Pep-continuation_A.zip",
+      "size": 161602893,
+      "sha256": "4719df9223e292919936abcc2b5008f092f2d46826e4cf466b19a76e3f1ed82c",
+      "component": "continuation_A",
+      "url": "https://github.com/weizesunmd-byte/MAVEN-Pep/releases/download/models-v1/MAVEN-Pep-continuation_A.zip",
+      "files": [
+        {
+          "path": "continuation_A/adapter_config.json",
+          "size": 1082,
+          "sha256": "d3733fd5286bd12ac6f54dc3a0ad452d59f6f7294fa1016cd4dfc9a327a5faca"
+        },
+        {
+          "path": "continuation_A/adapter_model.safetensors",
+          "size": 174655536,
+          "sha256": "b0ee5e32e662b645584dbe2bd59ed43b468fbf8ae9e2d8cba4eb78c17ce6e0b0"
+        }
+      ]
+    },
+    {
+      "path": "MAVEN-Pep-continuation_B.zip",
+      "size": 161601283,
+      "sha256": "dc3816b97b28e02979f70575a327829502944a47e6acd538564ed0970b50a50c",
+      "component": "continuation_B",
+      "url": "https://github.com/weizesunmd-byte/MAVEN-Pep/releases/download/models-v1/MAVEN-Pep-continuation_B.zip",
+      "files": [
+        {
+          "path": "continuation_B/adapter_config.json",
+          "size": 1082,
+          "sha256": "c406a0d1e3a2ecc6c606d01cf0dd480f10ca361e0096d7f8fcbeb05a7abec22a"
+        },
+        {
+          "path": "continuation_B/adapter_model.safetensors",
+          "size": 174655536,
+          "sha256": "a1075aa789b2b2170453ef185f08e6d3cbc93790f265b7e5c08f839b90c085df"
+        }
+      ]
+    },
+    {
+      "path": "MAVEN-Pep-tokenizer.zip",
+      "size": 4160363,
+      "sha256": "639734a5026e072613f268295d42d09497db7022016f1557a6e99098eda9dcc0",
+      "component": "tokenizer",
+      "url": "https://github.com/weizesunmd-byte/MAVEN-Pep/releases/download/models-v1/MAVEN-Pep-tokenizer.zip",
+      "files": [
+        {
+          "path": "tokenizer/added_tokens.json",
+          "size": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "tokenizer/chat_template.jinja",
+          "size": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "tokenizer/merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "tokenizer/special_tokens_map.json",
+          "size": 496,
+          "sha256": "a36726f7fe394c1324021cac4a9ee3ad6c4f6285c0d98721f9b0b95888ec9905"
+        },
+        {
+          "path": "tokenizer/tokenizer.json",
+          "size": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "size": 5401,
+          "sha256": "68f2cfe250d0fd2c445bcbeb49183726d6c4dfca493bd10599742410c2fc4a79"
+        },
+        {
+          "path": "tokenizer/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ]
+    }
+  ]
+}

@@ -71,7 +71,7 @@
   },
   "frozen_training_files_sha256": {
     "domain_rows.jsonl": "e864bb6cfaf83a7c9c306e1f975493048d2bade849aabffef058c9cfa89eb342",
-    "replay_rows.jsonl": "1f467b3c581c48101cc608ffb141f904979b7e83a11c5fb38055d6e57355715a",
+    "replay_rows.jsonl": "df822fdf830d843beac01269f05807f70ca6c1e80ca053037b2bbbe2f62feb52",
     "slots.csv": "e79006fb6349a2549d37b117183842472c2406caf13c9c78dc58f2df6ed07b91"
   },
   "base_files_sha256": {
@@ -85,7 +85,9 @@
     "model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc"
   },
   "original_protocol_sha256": "be2abd6877f319c3013e03f71f4ad5b254c004a8c0f61e24eb71a56f634ca5d3",
-  "public_port_note": "Deployment metadata omitted. Same fixed-budget calculation; exact external replay, tokenizer, base weights and parent adapter required. The public port is not the historical worker byte sequence.",
+  "public_port_note": "Deployment metadata omitted. The release includes the fixed domain/replay data, exact tokenizer and R6 parent checkpoint; the Qwen3 base is obtained from its pinned official revision. Same fixed-budget calculation, not the historical worker byte sequence.",
   "original_domain_rows_sha256": "45cdf96c2d7481d1b1d374e626bdcd851ab3e3e78e8a4a707b580405b7a71e03",
-  "public_training_projection": "504 source_refs.path metadata values replaced with portable asset names. Messages, targets, inputs, case order and training slots unchanged."
+  "public_training_projection": "504 source_refs.path metadata values replaced with portable asset names. Messages, targets, inputs, case order and training slots unchanged.",
+  "original_replay_rows_sha256": "1f467b3c581c48101cc608ffb141f904979b7e83a11c5fb38055d6e57355715a",
+  "public_replay_projection": "819 historical researcher-authored extraction/identity tasks with short factual source projections. Source filesystem paths replaced; every message, expected output and input unchanged. See docs/reproduction_data.md for third-party attribution."
 }

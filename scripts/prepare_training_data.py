@@ -1,4 +1,4 @@
-"""Extract published synthetic domain rows and fixed slots for optional training."""
+"""Extract fixed domain/replay rows, slots, and the historical R6 training data."""
 import argparse
 import gzip
 import hashlib
@@ -12,13 +12,17 @@ def main():
     parser.add_argument('--output-dir',type=Path,required=True)
     args=parser.parse_args()
     args.output_dir.mkdir(parents=True,exist_ok=True)
-    targets=[args.output_dir/name for name in ('domain_rows.jsonl','slots.csv')]
+    names=('domain_rows.jsonl','replay_rows.jsonl','r6_train.jsonl','slots.csv')
+    targets=[args.output_dir/name for name in names]
     if any(p.exists() for p in targets):raise FileExistsError('Use a new directory; existing training files are preserved')
-    raw=gzip.decompress((ROOT/'data/training/domain_rows.jsonl.gz').read_bytes())
     protocol=json.loads((ROOT/'training/protocol.json').read_text(encoding='utf-8'))
-    assert hashlib.sha256(raw).hexdigest()==protocol['frozen_training_files_sha256']['domain_rows.jsonl']
-    targets[0].write_bytes(raw)
-    shutil.copyfile(ROOT/'data/training/slots.csv',targets[1])
-    print('Prepared synthetic domain data and slots in',args.output_dir)
-    print('Arm B additionally requires the exact external historical replay_rows.jsonl.')
+    manifest=json.loads((ROOT/'data/training/data_manifest.json').read_text(encoding='utf-8'))
+    payloads={name:gzip.decompress((ROOT/'data/training'/(name+'.gz')).read_bytes()) for name in names[:3]}
+    for name,raw in payloads.items():
+        expected=protocol['frozen_training_files_sha256'].get(name) or manifest['files'][name]['sha256']
+        if hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('Frozen training data changed: '+name)
+    for name,raw in payloads.items():(args.output_dir/name).write_bytes(raw)
+    shutil.copyfile(ROOT/'data/training/slots.csv',args.output_dir/'slots.csv')
+    print('Prepared both continuation arms and the 8,560-row historical R6 training set in',args.output_dir)
+    print('Database-derived replay facts retain upstream attribution and terms; see docs/reproduction_data.md.')
 if __name__=='__main__':main()

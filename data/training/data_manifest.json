@@ -1,0 +1,28 @@
+{
+  "schema": "maven.public_training_data.v1",
+  "projection": "Only source_refs/path filesystem metadata changed; messages, targets, order and all inputs are unchanged.",
+  "files": {
+    "replay_rows.jsonl": {
+      "sha256": "df822fdf830d843beac01269f05807f70ca6c1e80ca053037b2bbbe2f62feb52",
+      "original_sha256": "1f467b3c581c48101cc608ffb141f904979b7e83a11c5fb38055d6e57355715a",
+      "compressed_sha256": "b83a956ea03ba9f00f8cada3b9201b714c2ddf22e2d64fafffae738ab3713ce5",
+      "rows": 819,
+      "by_source": {
+        "SATPdb": 199,
+        "Propedia": 205,
+        "DBAASP": 193,
+        "DRAMP": 222
+      }
+    },
+    "r6_train.jsonl": {
+      "sha256": "d89c09b6a8e6c7321215516f09aef7caa25fdd3e7427b6daa25a66f47864e0d9",
+      "original_sha256": "ff837a03afc9b4f536a855d9f11ed893af929f21017baa18ff72f6a550b93ba8",
+      "compressed_sha256": "70f7a69eeca9f30993565701fd85fd7115059733f56f7fe7c65ef28e7e392375",
+      "rows": 8560,
+      "by_source": {
+        "existing_tool_result": 348,
+        "synthetic_contract": 8212
+      }
+    }
+  }
+}

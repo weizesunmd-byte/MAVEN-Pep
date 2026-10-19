@@ -1,2 +1,2 @@
 # Preserve frozen scientific assets and training-file digests across platforms.
-* -text
+* -text whitespace=cr-at-eol

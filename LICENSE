@@ -1,0 +1,21 @@
+MAVEN-Pep Academic Research License 1.0
+
+Permission is granted to use, copy, and modify the MAVEN-Pep project code and
+author-created LoRA adapter weights solely for non-commercial academic research
+and reproduction of the results of the accompanying MAVEN-Pep manuscript.
+Redistribution is permitted solely for those same purposes, provided that this
+license and the applicable attribution and third-party notices are retained.
+Recipients receive the material under these same restrictions.
+
+Commercial use and any use outside the purposes stated above require separate
+permission from the rights holders. This is a research-use license, not an
+unrestricted open-source license.
+
+This license applies only to material for which the MAVEN-Pep authors hold the
+necessary rights. It does not replace or expand the licenses of Qwen3, other
+third-party software, database records, or other third-party material. Their
+respective notices and terms continue to apply.
+
+The material is provided "as is", without warranty of any kind. To the maximum
+extent permitted by applicable law, the authors and contributors accept no
+liability arising from its use.

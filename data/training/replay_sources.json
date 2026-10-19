@@ -1,0 +1,4100 @@
+{
+  "schema": "maven.replay_sources.v1",
+  "source_manifest": [
+    {
+      "case_id": "replay_SATPdb:satpdb20273:2",
+      "source": "SATPdb",
+      "source_id": "satpdb20273"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25739:0",
+      "source": "SATPdb",
+      "source_id": "satpdb25739"
+    },
+    {
+      "case_id": "replay_Propedia:1C5Y-A-B:2",
+      "source": "Propedia",
+      "source_id": "1C5Y-A-B"
+    },
+    {
+      "case_id": "replay_Propedia:5IQO-D-A:complement",
+      "source": "Propedia",
+      "source_id": "5IQO-D-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13161:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb13161"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19979:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb19979"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_5055:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_5055"
+    },
+    {
+      "case_id": "replay_Propedia:3QKR-C-A:2",
+      "source": "Propedia",
+      "source_id": "3QKR-C-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_708:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_708"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_21053:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_21053"
+    },
+    {
+      "case_id": "replay_Propedia:4M5T-B-E:1",
+      "source": "Propedia",
+      "source_id": "4M5T-B-E"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_22815:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_22815"
+    },
+    {
+      "case_id": "replay_Propedia:8J0E-E-B:complement",
+      "source": "Propedia",
+      "source_id": "8J0E-E-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19569:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb19569"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01865:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01865"
+    },
+    {
+      "case_id": "replay_Propedia:8UNI-C-A:3",
+      "source": "Propedia",
+      "source_id": "8UNI-C-A"
+    },
+    {
+      "case_id": "replay_Propedia:5W93-E-B:complement",
+      "source": "Propedia",
+      "source_id": "5W93-E-B"
+    },
+    {
+      "case_id": "replay_Propedia:1OCC-M-A:0",
+      "source": "Propedia",
+      "source_id": "1OCC-M-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_20709:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_20709"
+    },
+    {
+      "case_id": "replay_Propedia:1EBP-C-B:complement",
+      "source": "Propedia",
+      "source_id": "1EBP-C-B"
+    },
+    {
+      "case_id": "replay_Propedia:3RVD-N-H:1",
+      "source": "Propedia",
+      "source_id": "3RVD-N-H"
+    },
+    {
+      "case_id": "replay_Propedia:1ZOQ-D-A:3",
+      "source": "Propedia",
+      "source_id": "1ZOQ-D-A"
+    },
+    {
+      "case_id": "replay_Propedia:6Q6G-G-R:3",
+      "source": "Propedia",
+      "source_id": "6Q6G-G-R"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24522:2",
+      "source": "SATPdb",
+      "source_id": "satpdb24522"
+    },
+    {
+      "case_id": "replay_Propedia:8F1U-a-C:0",
+      "source": "Propedia",
+      "source_id": "8F1U-a-C"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_133:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_133"
+    },
+    {
+      "case_id": "replay_Propedia:7UDL-B-A:complement",
+      "source": "Propedia",
+      "source_id": "7UDL-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14114:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb14114"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22422:3",
+      "source": "SATPdb",
+      "source_id": "satpdb22422"
+    },
+    {
+      "case_id": "replay_Propedia:2KSP-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2KSP-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01755:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01755"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12587:1",
+      "source": "SATPdb",
+      "source_id": "satpdb12587"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26857:1",
+      "source": "SATPdb",
+      "source_id": "satpdb26857"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_10067:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_10067"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03084:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP03084"
+    },
+    {
+      "case_id": "replay_Propedia:1IHS-L-H:1",
+      "source": "Propedia",
+      "source_id": "1IHS-L-H"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24104:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP24104"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27546:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb27546"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24376:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP24376"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33196:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP33196"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12846:1",
+      "source": "SATPdb",
+      "source_id": "satpdb12846"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_9819:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_9819"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_8159:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_8159"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00690:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP00690"
+    },
+    {
+      "case_id": "replay_Propedia:8FYM-P-H:1",
+      "source": "Propedia",
+      "source_id": "8FYM-P-H"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03125:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP03125"
+    },
+    {
+      "case_id": "replay_Propedia:4Z10-G-C:complement",
+      "source": "Propedia",
+      "source_id": "4Z10-G-C"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31122:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31122"
+    },
+    {
+      "case_id": "replay_Propedia:5MK1-K-D:2",
+      "source": "Propedia",
+      "source_id": "5MK1-K-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37545:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP37545"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP20903:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP20903"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00956:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP00956"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23509:3",
+      "source": "SATPdb",
+      "source_id": "satpdb23509"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_15677:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_15677"
+    },
+    {
+      "case_id": "replay_Propedia:7D0Q-B-A:2",
+      "source": "Propedia",
+      "source_id": "7D0Q-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25798:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP25798"
+    },
+    {
+      "case_id": "replay_Propedia:2WZQ-C-A:complement",
+      "source": "Propedia",
+      "source_id": "2WZQ-C-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP39105:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP39105"
+    },
+    {
+      "case_id": "replay_Propedia:8T1L-9-I:complement",
+      "source": "Propedia",
+      "source_id": "8T1L-9-I"
+    },
+    {
+      "case_id": "replay_Propedia:4GQ6-B-A:complement",
+      "source": "Propedia",
+      "source_id": "4GQ6-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_10181:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_10181"
+    },
+    {
+      "case_id": "replay_Propedia:6PSD-F-E:2",
+      "source": "Propedia",
+      "source_id": "6PSD-F-E"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26599:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26599"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02494:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP02494"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_2061:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_2061"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26430:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP26430"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP23451:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP23451"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP32775:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP32775"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_17353:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_17353"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26490:3",
+      "source": "SATPdb",
+      "source_id": "satpdb26490"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20253:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb20253"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_5786:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_5786"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19731:2",
+      "source": "SATPdb",
+      "source_id": "satpdb19731"
+    },
+    {
+      "case_id": "replay_Propedia:8ETC-z-B:3",
+      "source": "Propedia",
+      "source_id": "8ETC-z-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP20764:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP20764"
+    },
+    {
+      "case_id": "replay_Propedia:8CL0-L-E:3",
+      "source": "Propedia",
+      "source_id": "8CL0-L-E"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13346:1",
+      "source": "SATPdb",
+      "source_id": "satpdb13346"
+    },
+    {
+      "case_id": "replay_Propedia:3HXI-C-A:complement",
+      "source": "Propedia",
+      "source_id": "3HXI-C-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb21692:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb21692"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_24049:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_24049"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13558:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb13558"
+    },
+    {
+      "case_id": "replay_Propedia:4WHT-x-Y:complement",
+      "source": "Propedia",
+      "source_id": "4WHT-x-Y"
+    },
+    {
+      "case_id": "replay_Propedia:2XZE-R-A:complement",
+      "source": "Propedia",
+      "source_id": "2XZE-R-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01183:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP01183"
+    },
+    {
+      "case_id": "replay_Propedia:5H6Q-C-A:complement",
+      "source": "Propedia",
+      "source_id": "5H6Q-C-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33799:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP33799"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23847:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23847"
+    },
+    {
+      "case_id": "replay_Propedia:2P0W-P-A:complement",
+      "source": "Propedia",
+      "source_id": "2P0W-P-A"
+    },
+    {
+      "case_id": "replay_Propedia:6UGD-G-E:complement",
+      "source": "Propedia",
+      "source_id": "6UGD-G-E"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02609:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP02609"
+    },
+    {
+      "case_id": "replay_Propedia:7K7R-C-B:complement",
+      "source": "Propedia",
+      "source_id": "7K7R-C-B"
+    },
+    {
+      "case_id": "replay_Propedia:4UF6-F-A:0",
+      "source": "Propedia",
+      "source_id": "4UF6-F-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33810:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP33810"
+    },
+    {
+      "case_id": "replay_Propedia:6G0Y-J-A:3",
+      "source": "Propedia",
+      "source_id": "6G0Y-J-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12195:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12195"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25996:2",
+      "source": "SATPdb",
+      "source_id": "satpdb25996"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26648:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP26648"
+    },
+    {
+      "case_id": "replay_Propedia:1HQQ-E-D:complement",
+      "source": "Propedia",
+      "source_id": "1HQQ-E-D"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16708:0",
+      "source": "SATPdb",
+      "source_id": "satpdb16708"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17363:0",
+      "source": "SATPdb",
+      "source_id": "satpdb17363"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01021:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP01021"
+    },
+    {
+      "case_id": "replay_Propedia:4AU3-F-A:complement",
+      "source": "Propedia",
+      "source_id": "4AU3-F-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27313:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb27313"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30323:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP30323"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_20319:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_20319"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP23486:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP23486"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb15084:3",
+      "source": "SATPdb",
+      "source_id": "satpdb15084"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10900:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb10900"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11396:3",
+      "source": "SATPdb",
+      "source_id": "satpdb11396"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25949:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP25949"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_445:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_445"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16205:1",
+      "source": "SATPdb",
+      "source_id": "satpdb16205"
+    },
+    {
+      "case_id": "replay_Propedia:8PBD-L-H:2",
+      "source": "Propedia",
+      "source_id": "8PBD-L-H"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33900:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP33900"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31534:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31534"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12640:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12640"
+    },
+    {
+      "case_id": "replay_Propedia:6IZ8-F-C:3",
+      "source": "Propedia",
+      "source_id": "6IZ8-F-C"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18593:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18593"
+    },
+    {
+      "case_id": "replay_Propedia:7EJN-C-A:0",
+      "source": "Propedia",
+      "source_id": "7EJN-C-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24955:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP24955"
+    },
+    {
+      "case_id": "replay_Propedia:5TXE-C-A:complement",
+      "source": "Propedia",
+      "source_id": "5TXE-C-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25177:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP25177"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37645:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP37645"
+    },
+    {
+      "case_id": "replay_Propedia:6B9M-D-A:complement",
+      "source": "Propedia",
+      "source_id": "6B9M-D-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14048:3",
+      "source": "SATPdb",
+      "source_id": "satpdb14048"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31202:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP31202"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP27393:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP27393"
+    },
+    {
+      "case_id": "replay_Propedia:1JOT-B-A:complement",
+      "source": "Propedia",
+      "source_id": "1JOT-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19625:3",
+      "source": "SATPdb",
+      "source_id": "satpdb19625"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24293:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP24293"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_2595:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_2595"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_168:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_168"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_3895:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_3895"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP21205:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP21205"
+    },
+    {
+      "case_id": "replay_Propedia:5CSJ-C-A:1",
+      "source": "Propedia",
+      "source_id": "5CSJ-C-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26003:3",
+      "source": "SATPdb",
+      "source_id": "satpdb26003"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19004:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb19004"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13596:1",
+      "source": "SATPdb",
+      "source_id": "satpdb13596"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29167:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29167"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11619:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb11619"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_5143:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_5143"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29890:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29890"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12544:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12544"
+    },
+    {
+      "case_id": "replay_Propedia:8WHY-4-H:2",
+      "source": "Propedia",
+      "source_id": "8WHY-4-H"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP32911:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP32911"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30273:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP30273"
+    },
+    {
+      "case_id": "replay_Propedia:5GAD-k-V:complement",
+      "source": "Propedia",
+      "source_id": "5GAD-k-V"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24415:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24415"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26521:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP26521"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22982:1",
+      "source": "SATPdb",
+      "source_id": "satpdb22982"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34523:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34523"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26391:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP26391"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23339:0",
+      "source": "SATPdb",
+      "source_id": "satpdb23339"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP38053:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP38053"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20079:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb20079"
+    },
+    {
+      "case_id": "replay_Propedia:6A5E-F-B:complement",
+      "source": "Propedia",
+      "source_id": "6A5E-F-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10184:1",
+      "source": "SATPdb",
+      "source_id": "satpdb10184"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18812:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18812"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_2374:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_2374"
+    },
+    {
+      "case_id": "replay_Propedia:7E4I-F-D:1",
+      "source": "Propedia",
+      "source_id": "7E4I-F-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31713:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP31713"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26680:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP26680"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30315:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP30315"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_695:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_695"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25148:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP25148"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP21217:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP21217"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01212:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP01212"
+    },
+    {
+      "case_id": "replay_Propedia:2GSI-X-D:complement",
+      "source": "Propedia",
+      "source_id": "2GSI-X-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18604:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP18604"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29912:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29912"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27947:1",
+      "source": "SATPdb",
+      "source_id": "satpdb27947"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16344:3",
+      "source": "SATPdb",
+      "source_id": "satpdb16344"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_8558:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_8558"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31413:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31413"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_21727:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_21727"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13697:1",
+      "source": "SATPdb",
+      "source_id": "satpdb13697"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP38001:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP38001"
+    },
+    {
+      "case_id": "replay_Propedia:4YO0-E-B:complement",
+      "source": "Propedia",
+      "source_id": "4YO0-E-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01672:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01672"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16229:3",
+      "source": "SATPdb",
+      "source_id": "satpdb16229"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12178:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb12178"
+    },
+    {
+      "case_id": "replay_Propedia:8D4T-M-Q:0",
+      "source": "Propedia",
+      "source_id": "8D4T-M-Q"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22076:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb22076"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_9364:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_9364"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_640:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_640"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_10853:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_10853"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37687:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP37687"
+    },
+    {
+      "case_id": "replay_Propedia:2XVC-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2XVC-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10336:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb10336"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb21005:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb21005"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03294:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP03294"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24809:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb24809"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_331:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_331"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_6317:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_6317"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00741:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP00741"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_8196:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_8196"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_9273:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_9273"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11859:2",
+      "source": "SATPdb",
+      "source_id": "satpdb11859"
+    },
+    {
+      "case_id": "replay_Propedia:7QOH-i-b:2",
+      "source": "Propedia",
+      "source_id": "7QOH-i-b"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18690:2",
+      "source": "SATPdb",
+      "source_id": "satpdb18690"
+    },
+    {
+      "case_id": "replay_Propedia:4DX9-F-G:complement",
+      "source": "Propedia",
+      "source_id": "4DX9-F-G"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_19416:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_19416"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12678:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12678"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22929:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP22929"
+    },
+    {
+      "case_id": "replay_Propedia:3SYN-E-D:complement",
+      "source": "Propedia",
+      "source_id": "3SYN-E-D"
+    },
+    {
+      "case_id": "replay_Propedia:9BYO-P-R:3",
+      "source": "Propedia",
+      "source_id": "9BYO-P-R"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_6577:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_6577"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26489:2",
+      "source": "SATPdb",
+      "source_id": "satpdb26489"
+    },
+    {
+      "case_id": "replay_Propedia:4R6Q-D-G:complement",
+      "source": "Propedia",
+      "source_id": "4R6Q-D-G"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02860:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP02860"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03404:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP03404"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb21398:3",
+      "source": "SATPdb",
+      "source_id": "satpdb21398"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17544:1",
+      "source": "SATPdb",
+      "source_id": "satpdb17544"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_140:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_140"
+    },
+    {
+      "case_id": "replay_Propedia:1ZY8-K-H:3",
+      "source": "Propedia",
+      "source_id": "1ZY8-K-H"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_14332:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_14332"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_4197:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_4197"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23429:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23429"
+    },
+    {
+      "case_id": "replay_Propedia:7TZK-D-A:complement",
+      "source": "Propedia",
+      "source_id": "7TZK-D-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24512:2",
+      "source": "SATPdb",
+      "source_id": "satpdb24512"
+    },
+    {
+      "case_id": "replay_Propedia:9IOX-f-d:3",
+      "source": "Propedia",
+      "source_id": "9IOX-f-d"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25123:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP25123"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_20288:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_20288"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26485:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP26485"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13998:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13998"
+    },
+    {
+      "case_id": "replay_Propedia:7XFG-B-A:complement",
+      "source": "Propedia",
+      "source_id": "7XFG-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13029:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13029"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02013:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP02013"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25980:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb25980"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27319:0",
+      "source": "SATPdb",
+      "source_id": "satpdb27319"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20874:1",
+      "source": "SATPdb",
+      "source_id": "satpdb20874"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_339:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_339"
+    },
+    {
+      "case_id": "replay_Propedia:7ST8-S-L:3",
+      "source": "Propedia",
+      "source_id": "7ST8-S-L"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29867:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29867"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22859:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP22859"
+    },
+    {
+      "case_id": "replay_Propedia:8JJV-B-A:complement",
+      "source": "Propedia",
+      "source_id": "8JJV-B-A"
+    },
+    {
+      "case_id": "replay_Propedia:4TUJ-E-B:complement",
+      "source": "Propedia",
+      "source_id": "4TUJ-E-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_390:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_390"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14724:0",
+      "source": "SATPdb",
+      "source_id": "satpdb14724"
+    },
+    {
+      "case_id": "replay_Propedia:7YK5-k-L:3",
+      "source": "Propedia",
+      "source_id": "7YK5-k-L"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13111:3",
+      "source": "SATPdb",
+      "source_id": "satpdb13111"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29878:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29878"
+    },
+    {
+      "case_id": "replay_Propedia:2X04-C-B:complement",
+      "source": "Propedia",
+      "source_id": "2X04-C-B"
+    },
+    {
+      "case_id": "replay_Propedia:9JA1-D-G:complement",
+      "source": "Propedia",
+      "source_id": "9JA1-D-G"
+    },
+    {
+      "case_id": "replay_Propedia:6HOS-C-A:complement",
+      "source": "Propedia",
+      "source_id": "6HOS-C-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18674:1",
+      "source": "SATPdb",
+      "source_id": "satpdb18674"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_6025:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_6025"
+    },
+    {
+      "case_id": "replay_Propedia:9LR9-d-Y:complement",
+      "source": "Propedia",
+      "source_id": "9LR9-d-Y"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_18461:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_18461"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11101:3",
+      "source": "SATPdb",
+      "source_id": "satpdb11101"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34635:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP34635"
+    },
+    {
+      "case_id": "replay_Propedia:7C07-T-S:1",
+      "source": "Propedia",
+      "source_id": "7C07-T-S"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_21034:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_21034"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_23384:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_23384"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17615:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb17615"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23489:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23489"
+    },
+    {
+      "case_id": "replay_Propedia:5X8X-B-E:3",
+      "source": "Propedia",
+      "source_id": "5X8X-B-E"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20557:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb20557"
+    },
+    {
+      "case_id": "replay_Propedia:6N7I-F-A:complement",
+      "source": "Propedia",
+      "source_id": "6N7I-F-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23527:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23527"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22382:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb22382"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_8835:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_8835"
+    },
+    {
+      "case_id": "replay_Propedia:3U86-B-A:1",
+      "source": "Propedia",
+      "source_id": "3U86-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16555:1",
+      "source": "SATPdb",
+      "source_id": "satpdb16555"
+    },
+    {
+      "case_id": "replay_Propedia:7Q72-D-B:complement",
+      "source": "Propedia",
+      "source_id": "7Q72-D-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11848:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb11848"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37675:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP37675"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00444:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP00444"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31236:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP31236"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_13439:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_13439"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27148:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb27148"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_11439:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_11439"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_4065:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_4065"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00342:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP00342"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18553:3",
+      "source": "SATPdb",
+      "source_id": "satpdb18553"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10987:3",
+      "source": "SATPdb",
+      "source_id": "satpdb10987"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33767:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP33767"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb21579:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb21579"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25797:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP25797"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34282:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34282"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_647:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_647"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_4772:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_4772"
+    },
+    {
+      "case_id": "replay_Propedia:3W13-B-E:2",
+      "source": "Propedia",
+      "source_id": "3W13-B-E"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29172:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29172"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25096:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb25096"
+    },
+    {
+      "case_id": "replay_Propedia:2W49-C-4:0",
+      "source": "Propedia",
+      "source_id": "2W49-C-4"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04074:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP04074"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14994:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb14994"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34646:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34646"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_440:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_440"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18058:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb18058"
+    },
+    {
+      "case_id": "replay_Propedia:8WXX-C-B:1",
+      "source": "Propedia",
+      "source_id": "8WXX-C-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24642:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24642"
+    },
+    {
+      "case_id": "replay_Propedia:5EIB-F-C:complement",
+      "source": "Propedia",
+      "source_id": "5EIB-F-C"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22214:2",
+      "source": "SATPdb",
+      "source_id": "satpdb22214"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10927:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb10927"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24110:2",
+      "source": "SATPdb",
+      "source_id": "satpdb24110"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_697:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_697"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25432:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP25432"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22034:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb22034"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_532:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_532"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34247:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34247"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_1154:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_1154"
+    },
+    {
+      "case_id": "replay_Propedia:2ROL-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2ROL-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_9180:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_9180"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24866:3",
+      "source": "SATPdb",
+      "source_id": "satpdb24866"
+    },
+    {
+      "case_id": "replay_Propedia:6YGH-E-B:complement",
+      "source": "Propedia",
+      "source_id": "6YGH-E-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1156:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1156"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34385:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP34385"
+    },
+    {
+      "case_id": "replay_Propedia:5BJT-T-C:complement",
+      "source": "Propedia",
+      "source_id": "5BJT-T-C"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26620:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26620"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_6225:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_6225"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26887:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP26887"
+    },
+    {
+      "case_id": "replay_Propedia:1T3L-B-A:complement",
+      "source": "Propedia",
+      "source_id": "1T3L-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_5769:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_5769"
+    },
+    {
+      "case_id": "replay_Propedia:6BIY-C-B:complement",
+      "source": "Propedia",
+      "source_id": "6BIY-C-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03475:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP03475"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26881:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP26881"
+    },
+    {
+      "case_id": "replay_Propedia:4YFA-B-A:1",
+      "source": "Propedia",
+      "source_id": "4YFA-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29865:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29865"
+    },
+    {
+      "case_id": "replay_Propedia:5LY3-B-A:complement",
+      "source": "Propedia",
+      "source_id": "5LY3-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00860:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP00860"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP20801:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP20801"
+    },
+    {
+      "case_id": "replay_Propedia:4PN1-E-B:3",
+      "source": "Propedia",
+      "source_id": "4PN1-E-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_21044:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_21044"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20045:3",
+      "source": "SATPdb",
+      "source_id": "satpdb20045"
+    },
+    {
+      "case_id": "replay_Propedia:7W6L-F-E:complement",
+      "source": "Propedia",
+      "source_id": "7W6L-F-E"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25833:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb25833"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02923:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP02923"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_8627:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_8627"
+    },
+    {
+      "case_id": "replay_Propedia:8WK4-o-A:complement",
+      "source": "Propedia",
+      "source_id": "8WK4-o-A"
+    },
+    {
+      "case_id": "replay_Propedia:6YB3-D-B:0",
+      "source": "Propedia",
+      "source_id": "6YB3-D-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_18422:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_18422"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_9709:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_9709"
+    },
+    {
+      "case_id": "replay_Propedia:2ZNE-D-B:complement",
+      "source": "Propedia",
+      "source_id": "2ZNE-D-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26337:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26337"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19626:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb19626"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02301:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP02301"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01106:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP01106"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24682:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24682"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP20779:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP20779"
+    },
+    {
+      "case_id": "replay_Propedia:2V8C-C-A:0",
+      "source": "Propedia",
+      "source_id": "2V8C-C-A"
+    },
+    {
+      "case_id": "replay_Propedia:7XJJ-C-E:complement",
+      "source": "Propedia",
+      "source_id": "7XJJ-C-E"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37961:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP37961"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34276:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34276"
+    },
+    {
+      "case_id": "replay_Propedia:7BXT-K-G:complement",
+      "source": "Propedia",
+      "source_id": "7BXT-K-G"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14395:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb14395"
+    },
+    {
+      "case_id": "replay_Propedia:7CQI-C-A:2",
+      "source": "Propedia",
+      "source_id": "7CQI-C-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26924:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26924"
+    },
+    {
+      "case_id": "replay_Propedia:7UFG-C-A:complement",
+      "source": "Propedia",
+      "source_id": "7UFG-C-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25448:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP25448"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04326:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP04326"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23626:1",
+      "source": "SATPdb",
+      "source_id": "satpdb23626"
+    },
+    {
+      "case_id": "replay_Propedia:8TQ2-D-C:2",
+      "source": "Propedia",
+      "source_id": "8TQ2-D-C"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03764:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP03764"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb15701:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb15701"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31357:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31357"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34037:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34037"
+    },
+    {
+      "case_id": "replay_Propedia:1AZG-A-B:complement",
+      "source": "Propedia",
+      "source_id": "1AZG-A-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01008:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01008"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_19981:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_19981"
+    },
+    {
+      "case_id": "replay_Propedia:1QD6-B-D:complement",
+      "source": "Propedia",
+      "source_id": "1QD6-B-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04315:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP04315"
+    },
+    {
+      "case_id": "replay_Propedia:2FNT-P-B:2",
+      "source": "Propedia",
+      "source_id": "2FNT-P-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11016:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb11016"
+    },
+    {
+      "case_id": "replay_Propedia:7SXG-B-A:complement",
+      "source": "Propedia",
+      "source_id": "7SXG-B-A"
+    },
+    {
+      "case_id": "replay_Propedia:8YZW-F-D:3",
+      "source": "Propedia",
+      "source_id": "8YZW-F-D"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26756:2",
+      "source": "SATPdb",
+      "source_id": "satpdb26756"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_465:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_465"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_3036:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_3036"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26714:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP26714"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_24622:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_24622"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_169:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_169"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26386:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP26386"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17811:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb17811"
+    },
+    {
+      "case_id": "replay_Propedia:2GPP-C-A:complement",
+      "source": "Propedia",
+      "source_id": "2GPP-C-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_163:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_163"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13312:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13312"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_16027:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_16027"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_6402:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_6402"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31297:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31297"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_10544:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_10544"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11046:1",
+      "source": "SATPdb",
+      "source_id": "satpdb11046"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP32789:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP32789"
+    },
+    {
+      "case_id": "replay_Propedia:7O5B-h-g:1",
+      "source": "Propedia",
+      "source_id": "7O5B-h-g"
+    },
+    {
+      "case_id": "replay_Propedia:1LVM-E-A:1",
+      "source": "Propedia",
+      "source_id": "1LVM-E-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_6405:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_6405"
+    },
+    {
+      "case_id": "replay_Propedia:3KEE-H-D:complement",
+      "source": "Propedia",
+      "source_id": "3KEE-H-D"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26900:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26900"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24015:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24015"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_256:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_256"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19340:3",
+      "source": "SATPdb",
+      "source_id": "satpdb19340"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03113:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP03113"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25862:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP25862"
+    },
+    {
+      "case_id": "replay_Propedia:2KWF-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2KWF-B-A"
+    },
+    {
+      "case_id": "replay_Propedia:9HZ5-C-A:complement",
+      "source": "Propedia",
+      "source_id": "9HZ5-C-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18884:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18884"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_144:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_144"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_24406:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_24406"
+    },
+    {
+      "case_id": "replay_Propedia:1JK8-C-B:complement",
+      "source": "Propedia",
+      "source_id": "1JK8-C-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27046:2",
+      "source": "SATPdb",
+      "source_id": "satpdb27046"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP39083:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP39083"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP21233:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP21233"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37636:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP37636"
+    },
+    {
+      "case_id": "replay_Propedia:7VYE-Q-l:0",
+      "source": "Propedia",
+      "source_id": "7VYE-Q-l"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10185:2",
+      "source": "SATPdb",
+      "source_id": "satpdb10185"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14132:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb14132"
+    },
+    {
+      "case_id": "replay_Propedia:8BED-W-G:complement",
+      "source": "Propedia",
+      "source_id": "8BED-W-G"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19614:0",
+      "source": "SATPdb",
+      "source_id": "satpdb19614"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_372:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_372"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_15016:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_15016"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24419:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24419"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_23060:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_23060"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14679:1",
+      "source": "SATPdb",
+      "source_id": "satpdb14679"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1015:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1015"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_3884:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_3884"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_267:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_267"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP21821:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP21821"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18985:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18985"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP39382:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP39382"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18658:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18658"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_988:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_988"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28067:1",
+      "source": "SATPdb",
+      "source_id": "satpdb28067"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_11268:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_11268"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23251:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23251"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33825:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP33825"
+    },
+    {
+      "case_id": "replay_Propedia:4D69-X-F:2",
+      "source": "Propedia",
+      "source_id": "4D69-X-F"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12398:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12398"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37683:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP37683"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_10273:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_10273"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10944:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb10944"
+    },
+    {
+      "case_id": "replay_Propedia:4C35-I-A:1",
+      "source": "Propedia",
+      "source_id": "4C35-I-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24031:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb24031"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30444:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP30444"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1159:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1159"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24231:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24231"
+    },
+    {
+      "case_id": "replay_Propedia:2K2F-D-B:complement",
+      "source": "Propedia",
+      "source_id": "2K2F-D-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35221:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP35221"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_6743:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_6743"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12137:0",
+      "source": "SATPdb",
+      "source_id": "satpdb12137"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12000:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb12000"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25166:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP25166"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20387:3",
+      "source": "SATPdb",
+      "source_id": "satpdb20387"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31825:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP31825"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_22018:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_22018"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18637:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP18637"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_11811:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_11811"
+    },
+    {
+      "case_id": "replay_Propedia:1M27-B-A:complement",
+      "source": "Propedia",
+      "source_id": "1M27-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26060:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP26060"
+    },
+    {
+      "case_id": "replay_Propedia:5YLZ-R-S:1",
+      "source": "Propedia",
+      "source_id": "5YLZ-R-S"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29932:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29932"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01526:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01526"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14362:2",
+      "source": "SATPdb",
+      "source_id": "satpdb14362"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_671:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_671"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_16088:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_16088"
+    },
+    {
+      "case_id": "replay_Propedia:7DRM-E-B:complement",
+      "source": "Propedia",
+      "source_id": "7DRM-E-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_5914:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_5914"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_136:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_136"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_234:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_234"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_7017:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_7017"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03741:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP03741"
+    },
+    {
+      "case_id": "replay_Propedia:8V3W-s-C:1",
+      "source": "Propedia",
+      "source_id": "8V3W-s-C"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_15857:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_15857"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00318:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP00318"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10451:1",
+      "source": "SATPdb",
+      "source_id": "satpdb10451"
+    },
+    {
+      "case_id": "replay_Propedia:6J0X-H-D:complement",
+      "source": "Propedia",
+      "source_id": "6J0X-H-D"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14901:3",
+      "source": "SATPdb",
+      "source_id": "satpdb14901"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP38069:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP38069"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27831:0",
+      "source": "SATPdb",
+      "source_id": "satpdb27831"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_22883:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_22883"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30947:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP30947"
+    },
+    {
+      "case_id": "replay_Propedia:4XH2-a-A:complement",
+      "source": "Propedia",
+      "source_id": "4XH2-a-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_16710:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_16710"
+    },
+    {
+      "case_id": "replay_Propedia:6WH0-B-A:3",
+      "source": "Propedia",
+      "source_id": "6WH0-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27656:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb27656"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP27026:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP27026"
+    },
+    {
+      "case_id": "replay_Propedia:7ARX-C-B:complement",
+      "source": "Propedia",
+      "source_id": "7ARX-C-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34768:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP34768"
+    },
+    {
+      "case_id": "replay_Propedia:6KAC-x-d:3",
+      "source": "Propedia",
+      "source_id": "6KAC-x-d"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25231:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP25231"
+    },
+    {
+      "case_id": "replay_Propedia:4WHT-e-D:1",
+      "source": "Propedia",
+      "source_id": "4WHT-e-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24978:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24978"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_182:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_182"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17273:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb17273"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33008:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP33008"
+    },
+    {
+      "case_id": "replay_Propedia:2FFF-A-B:2",
+      "source": "Propedia",
+      "source_id": "2FFF-A-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30864:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP30864"
+    },
+    {
+      "case_id": "replay_Propedia:1NX1-D-B:complement",
+      "source": "Propedia",
+      "source_id": "1NX1-D-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_317:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_317"
+    },
+    {
+      "case_id": "replay_Propedia:9GC2-N-A:complement",
+      "source": "Propedia",
+      "source_id": "9GC2-N-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18121:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP18121"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1195:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1195"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18130:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP18130"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35244:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP35244"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_5876:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_5876"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24578:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb24578"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18302:0",
+      "source": "SATPdb",
+      "source_id": "satpdb18302"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_343:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_343"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_12669:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_12669"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17251:3",
+      "source": "SATPdb",
+      "source_id": "satpdb17251"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_718:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_718"
+    },
+    {
+      "case_id": "replay_Propedia:9ITO-V-Z:2",
+      "source": "Propedia",
+      "source_id": "9ITO-V-Z"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_747:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_747"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37873:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP37873"
+    },
+    {
+      "case_id": "replay_Propedia:6HQU-N-F:complement",
+      "source": "Propedia",
+      "source_id": "6HQU-N-F"
+    },
+    {
+      "case_id": "replay_Propedia:8RAL-C-B:complement",
+      "source": "Propedia",
+      "source_id": "8RAL-C-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22274:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP22274"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25721:1",
+      "source": "SATPdb",
+      "source_id": "satpdb25721"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01569:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01569"
+    },
+    {
+      "case_id": "replay_Propedia:8VPR-B-A:3",
+      "source": "Propedia",
+      "source_id": "8VPR-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18401:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb18401"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_3076:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_3076"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb21608:3",
+      "source": "SATPdb",
+      "source_id": "satpdb21608"
+    },
+    {
+      "case_id": "replay_Propedia:6I0Y-7-S:complement",
+      "source": "Propedia",
+      "source_id": "6I0Y-7-S"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26010:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26010"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16893:2",
+      "source": "SATPdb",
+      "source_id": "satpdb16893"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22183:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb22183"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04052:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP04052"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP38084:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP38084"
+    },
+    {
+      "case_id": "replay_Propedia:4CYD-H-C:complement",
+      "source": "Propedia",
+      "source_id": "4CYD-H-C"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_1606:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_1606"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29069:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29069"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP21927:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP21927"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18274:1",
+      "source": "SATPdb",
+      "source_id": "satpdb18274"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19830:3",
+      "source": "SATPdb",
+      "source_id": "satpdb19830"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_126:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_126"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb21744:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb21744"
+    },
+    {
+      "case_id": "replay_Propedia:8XLP-T-D:2",
+      "source": "Propedia",
+      "source_id": "8XLP-T-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30094:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP30094"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01371:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01371"
+    },
+    {
+      "case_id": "replay_Propedia:7Y8W-S-Q:2",
+      "source": "Propedia",
+      "source_id": "7Y8W-S-Q"
+    },
+    {
+      "case_id": "replay_Propedia:8B8I-N-F:complement",
+      "source": "Propedia",
+      "source_id": "8B8I-N-F"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26332:0",
+      "source": "SATPdb",
+      "source_id": "satpdb26332"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17899:0",
+      "source": "SATPdb",
+      "source_id": "satpdb17899"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13488:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb13488"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26846:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP26846"
+    },
+    {
+      "case_id": "replay_Propedia:3TEI-B-A:complement",
+      "source": "Propedia",
+      "source_id": "3TEI-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP20863:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP20863"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31742:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31742"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14709:2",
+      "source": "SATPdb",
+      "source_id": "satpdb14709"
+    },
+    {
+      "case_id": "replay_Propedia:7RPU-P-A:0",
+      "source": "Propedia",
+      "source_id": "7RPU-P-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13092:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb13092"
+    },
+    {
+      "case_id": "replay_Propedia:7YYH-k-h:3",
+      "source": "Propedia",
+      "source_id": "7YYH-k-h"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01279:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP01279"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26583:3",
+      "source": "SATPdb",
+      "source_id": "satpdb26583"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1009:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1009"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_3846:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_3846"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_15082:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_15082"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_17452:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_17452"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_2038:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_2038"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_713:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_713"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29038:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29038"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02867:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP02867"
+    },
+    {
+      "case_id": "replay_Propedia:7WT5-F-D:1",
+      "source": "Propedia",
+      "source_id": "7WT5-F-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22332:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP22332"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10341:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb10341"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_324:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_324"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25893:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP25893"
+    },
+    {
+      "case_id": "replay_Propedia:6YAR-C-A:1",
+      "source": "Propedia",
+      "source_id": "6YAR-C-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17419:2",
+      "source": "SATPdb",
+      "source_id": "satpdb17419"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_835:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_835"
+    },
+    {
+      "case_id": "replay_Propedia:1HIN-P-L:1",
+      "source": "Propedia",
+      "source_id": "1HIN-P-L"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_6694:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_6694"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_24547:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_24547"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22424:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb22424"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29939:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29939"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30357:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP30357"
+    },
+    {
+      "case_id": "replay_Propedia:8SXE-F-B:complement",
+      "source": "Propedia",
+      "source_id": "8SXE-F-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28650:0",
+      "source": "SATPdb",
+      "source_id": "satpdb28650"
+    },
+    {
+      "case_id": "replay_Propedia:3CW2-N-F:2",
+      "source": "Propedia",
+      "source_id": "3CW2-N-F"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35764:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP35764"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_22590:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_22590"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP02822:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP02822"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00990:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP00990"
+    },
+    {
+      "case_id": "replay_Propedia:8TQ8-E-C:3",
+      "source": "Propedia",
+      "source_id": "8TQ8-E-C"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb15527:0",
+      "source": "SATPdb",
+      "source_id": "satpdb15527"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29931:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29931"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19465:3",
+      "source": "SATPdb",
+      "source_id": "satpdb19465"
+    },
+    {
+      "case_id": "replay_Propedia:7XWO-D-B:complement",
+      "source": "Propedia",
+      "source_id": "7XWO-D-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10127:3",
+      "source": "SATPdb",
+      "source_id": "satpdb10127"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30393:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP30393"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26395:1",
+      "source": "SATPdb",
+      "source_id": "satpdb26395"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18315:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP18315"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_701:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_701"
+    },
+    {
+      "case_id": "replay_Propedia:7N8O-l-d:2",
+      "source": "Propedia",
+      "source_id": "7N8O-l-d"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_7238:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_7238"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP33134:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP33134"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18402:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP18402"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27625:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb27625"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP39026:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP39026"
+    },
+    {
+      "case_id": "replay_Propedia:9J1K-m-L:0",
+      "source": "Propedia",
+      "source_id": "9J1K-m-L"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP18510:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP18510"
+    },
+    {
+      "case_id": "replay_Propedia:8CMF-C-B:complement",
+      "source": "Propedia",
+      "source_id": "8CMF-C-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18094:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb18094"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29097:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29097"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_270:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_270"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_18460:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_18460"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25241:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb25241"
+    },
+    {
+      "case_id": "replay_Propedia:1KUJ-F-A:complement",
+      "source": "Propedia",
+      "source_id": "1KUJ-F-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb22031:0",
+      "source": "SATPdb",
+      "source_id": "satpdb22031"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_8303:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_8303"
+    },
+    {
+      "case_id": "replay_Propedia:1MVU-P-B:complement",
+      "source": "Propedia",
+      "source_id": "1MVU-P-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP32153:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP32153"
+    },
+    {
+      "case_id": "replay_Propedia:1O9K-P-B:complement",
+      "source": "Propedia",
+      "source_id": "1O9K-P-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16542:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb16542"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29933:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29933"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP23651:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP23651"
+    },
+    {
+      "case_id": "replay_Propedia:2R05-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2R05-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22067:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP22067"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16922:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb16922"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18297:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb18297"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12528:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12528"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_25584:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_25584"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_12708:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_12708"
+    },
+    {
+      "case_id": "replay_Propedia:4C2D-N-B:0",
+      "source": "Propedia",
+      "source_id": "4C2D-N-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20707:1",
+      "source": "SATPdb",
+      "source_id": "satpdb20707"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23501:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23501"
+    },
+    {
+      "case_id": "replay_Propedia:6DUQ-O-I:0",
+      "source": "Propedia",
+      "source_id": "6DUQ-O-I"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1014:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1014"
+    },
+    {
+      "case_id": "replay_Propedia:2LSJ-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2LSJ-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb15668:3",
+      "source": "SATPdb",
+      "source_id": "satpdb15668"
+    },
+    {
+      "case_id": "replay_Propedia:1S5L-t-a:1",
+      "source": "Propedia",
+      "source_id": "1S5L-t-a"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19424:1",
+      "source": "SATPdb",
+      "source_id": "satpdb19424"
+    },
+    {
+      "case_id": "replay_Propedia:1HR8-O-A:complement",
+      "source": "Propedia",
+      "source_id": "1HR8-O-A"
+    },
+    {
+      "case_id": "replay_Propedia:9HA6-z-S:3",
+      "source": "Propedia",
+      "source_id": "9HA6-z-S"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11874:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb11874"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_7018:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_7018"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12104:2",
+      "source": "SATPdb",
+      "source_id": "satpdb12104"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_17813:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_17813"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20922:0",
+      "source": "SATPdb",
+      "source_id": "satpdb20922"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04174:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP04174"
+    },
+    {
+      "case_id": "replay_Propedia:1VIT-J-F:complement",
+      "source": "Propedia",
+      "source_id": "1VIT-J-F"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13777:0",
+      "source": "SATPdb",
+      "source_id": "satpdb13777"
+    },
+    {
+      "case_id": "replay_Propedia:3LL8-E-A:complement",
+      "source": "Propedia",
+      "source_id": "3LL8-E-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16682:2",
+      "source": "SATPdb",
+      "source_id": "satpdb16682"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26286:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP26286"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25545:3",
+      "source": "SATPdb",
+      "source_id": "satpdb25545"
+    },
+    {
+      "case_id": "replay_Propedia:8D6Z-K-D:0",
+      "source": "Propedia",
+      "source_id": "8D6Z-K-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26805:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP26805"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_3179:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_3179"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb15517:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb15517"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26705:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP26705"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb16961:0",
+      "source": "SATPdb",
+      "source_id": "satpdb16961"
+    },
+    {
+      "case_id": "replay_Propedia:2JZI-B-A:1",
+      "source": "Propedia",
+      "source_id": "2JZI-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_948:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_948"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_388:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_388"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01580:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP01580"
+    },
+    {
+      "case_id": "replay_Propedia:2Q6W-C-B:complement",
+      "source": "Propedia",
+      "source_id": "2Q6W-C-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_528:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_528"
+    },
+    {
+      "case_id": "replay_Propedia:2BJ4-C-A:complement",
+      "source": "Propedia",
+      "source_id": "2BJ4-C-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35869:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP35869"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_7518:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_7518"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24950:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP24950"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04172:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP04172"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_7109:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_7109"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_153:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_153"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_14497:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_14497"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1319:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1319"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_5035:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_5035"
+    },
+    {
+      "case_id": "replay_Propedia:2QYF-E-A:complement",
+      "source": "Propedia",
+      "source_id": "2QYF-E-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP32358:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP32358"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13294:1",
+      "source": "SATPdb",
+      "source_id": "satpdb13294"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17562:3",
+      "source": "SATPdb",
+      "source_id": "satpdb17562"
+    },
+    {
+      "case_id": "replay_Propedia:7XHO-c-M:complement",
+      "source": "Propedia",
+      "source_id": "7XHO-c-M"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26188:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP26188"
+    },
+    {
+      "case_id": "replay_Propedia:8K4T-F-D:0",
+      "source": "Propedia",
+      "source_id": "8K4T-F-D"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04299:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP04299"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19170:2",
+      "source": "SATPdb",
+      "source_id": "satpdb19170"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31528:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP31528"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17543:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb17543"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP00250:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP00250"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23196:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23196"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03785:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP03785"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_19144:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_19144"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_19477:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_19477"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24212:0",
+      "source": "SATPdb",
+      "source_id": "satpdb24212"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_2697:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_2697"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP32990:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP32990"
+    },
+    {
+      "case_id": "replay_Propedia:6IJQ-A-B:complement",
+      "source": "Propedia",
+      "source_id": "6IJQ-A-B"
+    },
+    {
+      "case_id": "replay_Propedia:2KRB-B-A:complement",
+      "source": "Propedia",
+      "source_id": "2KRB-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_7910:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_7910"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_162:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_162"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb18527:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb18527"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_4457:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_4457"
+    },
+    {
+      "case_id": "replay_Propedia:8UCL-h-a:1",
+      "source": "Propedia",
+      "source_id": "8UCL-h-a"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30997:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP30997"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03528:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP03528"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_5758:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_5758"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28374:3",
+      "source": "SATPdb",
+      "source_id": "satpdb28374"
+    },
+    {
+      "case_id": "replay_Propedia:1OEB-D-A:complement",
+      "source": "Propedia",
+      "source_id": "1OEB-D-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP37607:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP37607"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22647:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP22647"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27043:2",
+      "source": "SATPdb",
+      "source_id": "satpdb27043"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb15411:0",
+      "source": "SATPdb",
+      "source_id": "satpdb15411"
+    },
+    {
+      "case_id": "replay_Propedia:2L35-B-A:0",
+      "source": "Propedia",
+      "source_id": "2L35-B-A"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12150:1",
+      "source": "SATPdb",
+      "source_id": "satpdb12150"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP25628:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP25628"
+    },
+    {
+      "case_id": "replay_Propedia:5XVW-F-C:complement",
+      "source": "Propedia",
+      "source_id": "5XVW-F-C"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_22863:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_22863"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26689:0",
+      "source": "SATPdb",
+      "source_id": "satpdb26689"
+    },
+    {
+      "case_id": "replay_Propedia:2AP2-Q-C:complement",
+      "source": "Propedia",
+      "source_id": "2AP2-Q-C"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24232:0",
+      "source": "SATPdb",
+      "source_id": "satpdb24232"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb23018:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb23018"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28024:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb28024"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01632:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP01632"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP31596:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP31596"
+    },
+    {
+      "case_id": "replay_Propedia:3F2O-D-B:complement",
+      "source": "Propedia",
+      "source_id": "3F2O-D-B"
+    },
+    {
+      "case_id": "replay_Propedia:8YYT-D-B:3",
+      "source": "Propedia",
+      "source_id": "8YYT-D-B"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13098:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13098"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_9116:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_9116"
+    },
+    {
+      "case_id": "replay_Propedia:9H1P-L-K:0",
+      "source": "Propedia",
+      "source_id": "9H1P-L-K"
+    },
+    {
+      "case_id": "replay_Propedia:4FSJ-F-C:complement",
+      "source": "Propedia",
+      "source_id": "4FSJ-F-C"
+    },
+    {
+      "case_id": "replay_Propedia:7RTE-D-C:complement",
+      "source": "Propedia",
+      "source_id": "7RTE-D-C"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_20930:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_20930"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_190:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_190"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_7498:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_7498"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24491:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP24491"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13081:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13081"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26054:3",
+      "source": "SATPdb",
+      "source_id": "satpdb26054"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29265:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP29265"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_17185:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_17185"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb19117:1",
+      "source": "SATPdb",
+      "source_id": "satpdb19117"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17601:0",
+      "source": "SATPdb",
+      "source_id": "satpdb17601"
+    },
+    {
+      "case_id": "replay_Propedia:5M0J-G-A:1",
+      "source": "Propedia",
+      "source_id": "5M0J-G-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18075:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18075"
+    },
+    {
+      "case_id": "replay_Propedia:8TEE-D-B:complement",
+      "source": "Propedia",
+      "source_id": "8TEE-D-B"
+    },
+    {
+      "case_id": "replay_Propedia:4WJV-L-B:complement",
+      "source": "Propedia",
+      "source_id": "4WJV-L-B"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24209:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP24209"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28185:2",
+      "source": "SATPdb",
+      "source_id": "satpdb28185"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18850:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18850"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28890:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb28890"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_247:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_247"
+    },
+    {
+      "case_id": "replay_Propedia:6KAC-i-c:2",
+      "source": "Propedia",
+      "source_id": "6KAC-i-c"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_18592:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_18592"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_6094:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_6094"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP38980:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP38980"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11141:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb11141"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_9533:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_9533"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28721:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb28721"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP04198:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP04198"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28190:1",
+      "source": "SATPdb",
+      "source_id": "satpdb28190"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb26581:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb26581"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_1161:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_1161"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24703:1",
+      "source": "SATPdb",
+      "source_id": "satpdb24703"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_21243:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_21243"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb24380:0",
+      "source": "SATPdb",
+      "source_id": "satpdb24380"
+    },
+    {
+      "case_id": "replay_Propedia:8WSS-L-R:complement",
+      "source": "Propedia",
+      "source_id": "8WSS-L-R"
+    },
+    {
+      "case_id": "replay_Propedia:6CZO-B-A:2",
+      "source": "Propedia",
+      "source_id": "6CZO-B-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_17178:0",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_17178"
+    },
+    {
+      "case_id": "replay_Propedia:7EGR-Q-I:1",
+      "source": "Propedia",
+      "source_id": "7EGR-Q-I"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_24438:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_24438"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35608:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP35608"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP27165:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP27165"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13651:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13651"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35607:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP35607"
+    },
+    {
+      "case_id": "replay_Propedia:6SLJ-P-D:complement",
+      "source": "Propedia",
+      "source_id": "6SLJ-P-D"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28548:0",
+      "source": "SATPdb",
+      "source_id": "satpdb28548"
+    },
+    {
+      "case_id": "replay_Propedia:8YOR-F-C:3",
+      "source": "Propedia",
+      "source_id": "8YOR-F-C"
+    },
+    {
+      "case_id": "replay_Propedia:5JHD-C-D:3",
+      "source": "Propedia",
+      "source_id": "5JHD-C-D"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb20859:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb20859"
+    },
+    {
+      "case_id": "replay_Propedia:6EWO-G-E:1",
+      "source": "Propedia",
+      "source_id": "6EWO-G-E"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22130:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP22130"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP26513:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP26513"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28115:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb28115"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24546:2",
+      "source": "DRAMP",
+      "source_id": "DRAMP24546"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb28451:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb28451"
+    },
+    {
+      "case_id": "replay_Propedia:4BZI-O-G:complement",
+      "source": "Propedia",
+      "source_id": "4BZI-O-G"
+    },
+    {
+      "case_id": "replay_Propedia:4P2O-P-C:complement",
+      "source": "Propedia",
+      "source_id": "4P2O-P-C"
+    },
+    {
+      "case_id": "replay_Propedia:7ZYH-B-I:0",
+      "source": "Propedia",
+      "source_id": "7ZYH-B-I"
+    },
+    {
+      "case_id": "replay_Propedia:1I8I-C-A:0",
+      "source": "Propedia",
+      "source_id": "1I8I-C-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_316:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_316"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_13450:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_13450"
+    },
+    {
+      "case_id": "replay_Propedia:1X11-C-B:complement",
+      "source": "Propedia",
+      "source_id": "1X11-C-B"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25868:3",
+      "source": "SATPdb",
+      "source_id": "satpdb25868"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_239:3",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_239"
+    },
+    {
+      "case_id": "replay_Propedia:8WLQ-g-t:1",
+      "source": "Propedia",
+      "source_id": "8WLQ-g-t"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP35967:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP35967"
+    },
+    {
+      "case_id": "replay_Propedia:7RZZ-C-A:complement",
+      "source": "Propedia",
+      "source_id": "7RZZ-C-A"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_18467:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_18467"
+    },
+    {
+      "case_id": "replay_Propedia:8YZ2-f-G:2",
+      "source": "Propedia",
+      "source_id": "8YZ2-f-G"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30284:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP30284"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_8172:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_8172"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_702:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_702"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb10316:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb10316"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_2335:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_2335"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP29888:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP29888"
+    },
+    {
+      "case_id": "replay_Propedia:7ZZQ-T-I:2",
+      "source": "Propedia",
+      "source_id": "7ZZQ-T-I"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP34098:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP34098"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_21816:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_21816"
+    },
+    {
+      "case_id": "replay_Propedia:8GSV-B-K:3",
+      "source": "Propedia",
+      "source_id": "8GSV-B-K"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30260:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP30260"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_20243:1",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_20243"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22775:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP22775"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb14257:2",
+      "source": "SATPdb",
+      "source_id": "satpdb14257"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17531:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb17531"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP01446:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP01446"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_737:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_737"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP30351:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP30351"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb12890:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb12890"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_637:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_637"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb11300:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb11300"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP22303:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP22303"
+    },
+    {
+      "case_id": "replay_Propedia:9CR9-C-A:2",
+      "source": "Propedia",
+      "source_id": "9CR9-C-A"
+    },
+    {
+      "case_id": "replay_Propedia:8CAM-0-2:0",
+      "source": "Propedia",
+      "source_id": "8CAM-0-2"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb13736:complement",
+      "source": "SATPdb",
+      "source_id": "satpdb13736"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPN_18447:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPN_18447"
+    },
+    {
+      "case_id": "replay_Propedia:4B4N-B-A:complement",
+      "source": "Propedia",
+      "source_id": "4B4N-B-A"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP24555:0",
+      "source": "DRAMP",
+      "source_id": "DRAMP24555"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPS_17393:complement",
+      "source": "DBAASP",
+      "source_id": "DBAASPS_17393"
+    },
+    {
+      "case_id": "replay_Propedia:1Q1S-B-C:complement",
+      "source": "Propedia",
+      "source_id": "1Q1S-B-C"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb17131:1",
+      "source": "SATPdb",
+      "source_id": "satpdb17131"
+    },
+    {
+      "case_id": "replay_DBAASP:DBAASPR_12694:2",
+      "source": "DBAASP",
+      "source_id": "DBAASPR_12694"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP03146:3",
+      "source": "DRAMP",
+      "source_id": "DRAMP03146"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP20869:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP20869"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP39125:complement",
+      "source": "DRAMP",
+      "source_id": "DRAMP39125"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb27857:1",
+      "source": "SATPdb",
+      "source_id": "satpdb27857"
+    },
+    {
+      "case_id": "replay_DRAMP:DRAMP21178:1",
+      "source": "DRAMP",
+      "source_id": "DRAMP21178"
+    },
+    {
+      "case_id": "replay_SATPdb:satpdb25535:2",
+      "source": "SATPdb",
+      "source_id": "satpdb25535"
+    },
+    {
+      "case_id": "replay_Propedia:6VME-T-J:2",
+      "source": "Propedia",
+      "source_id": "6VME-T-J"
+    }
+  ]
+}

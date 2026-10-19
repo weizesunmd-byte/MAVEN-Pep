@@ -48,14 +48,14 @@ def assert_equal(actual, expected, name):
         assert actual == expected, (name, actual, expected)
 
 
-def confirmation(output):
+def confirmation(output, predictions_dir=None):
     folder = ROOT / 'data/confirmation'
     cases = {x['case_id']: x for x in rows(folder / 'public_inputs.jsonl')}
     gold = {x['case_id']: x for x in rows(folder / 'private_gold.jsonl')}
     assert len(cases) == len(gold) == 48 and cases.keys() == gold.keys()
     predictions = {}
     for model in ('base', 'old', 'candidate'):
-        records = rows(folder / 'predictions' / (model + '.jsonl'))
+        records = rows((predictions_dir or folder / 'predictions') / (model + '.jsonl'))
         assert len(records) == 48 and {x['case_id'] for x in records} == cases.keys()
         predictions[model] = {x['case_id']: x['raw_output'] for x in records}
     # Public rules use public input only. Exceptions remain explicit failures.
@@ -121,7 +121,7 @@ def confirmation(output):
         assert_equal(models[model], expected['models'][model], model)
     assert_equal(comparisons, expected['paired_comparisons'], 'paired_comparisons')
     summary = dict(models=models, paired_comparisons=comparisons,
-                   mode='rescoring_saved_answers_no_inference',
+                   mode='rescoring_new_inference' if predictions_dir else 'rescoring_saved_answers_no_inference',
                    scope='Software-contract evaluation, not a biological activity test. Privileged rules are a scorer upper bound.')
     path = output / 'model_confirmation'
     path.mkdir(parents=True, exist_ok=True)
@@ -158,8 +158,7 @@ def retention(output):
             for key, value in actual.items():
                 assert math.isclose(value, float(row[key]), rel_tol=1e-12, abs_tol=1e-12), (arm, suite, key, value, row[key])
                 row[key] = value
-            # Evaluation generated-token totals are recorded descriptive values;
-            # the source generations and database-derived replay rows are not released.
+            # Timing and token totals are historical descriptive measurements.
             records.append(row)
     path = output / 'retention_ablation'
     path.mkdir(parents=True, exist_ok=True)
@@ -170,9 +169,11 @@ def retention(output):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output-dir', type=Path, default=ROOT / 'reproduced')
+    parser.add_argument('--predictions-dir', type=Path,
+                        help='Directory of newly generated base/old/candidate.jsonl; scores must match the paper')
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    result = dict(confirmation=confirmation(args.output_dir), retention=retention(args.output_dir))
+    result = dict(confirmation=confirmation(args.output_dir, args.predictions_dir), retention=retention(args.output_dir))
     print(json.dumps(result, indent=2))
     print('All recomputed scores and aggregates match the recorded manuscript results.')
 

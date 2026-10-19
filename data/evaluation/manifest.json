@@ -1,0 +1,194 @@
+{
+  "schema": "maven.public_development_evaluation.v1",
+  "files": {
+    "data/evaluation/dev_inputs.jsonl": {
+      "sha256": "0453a41dbca89e0f9d2cc9d83ff6e74d1138209bf37419a52718f1d8e662698b",
+      "original_sha256": "7af8e265c76643a7ff5bf98990013a76683278a4e3639d1ab90af975f76a5d68",
+      "rows": 240
+    },
+    "data/evaluation/dev_gold.jsonl": {
+      "sha256": "392286f6ab54e5bbfcf0b3026c882373168c51586234dfd75b515889d1f9b630",
+      "original_sha256": "08b711fbd47b1e21b3d607a72fb7596c0b86086e5f9c5a2322141440fdedd785",
+      "rows": 240
+    },
+    "data/evaluation/regression39_inputs.jsonl": {
+      "sha256": "78eef4cc4ea6fcb56f8461a28fb51d28fe017ac37fc942f6d0acad717af54441",
+      "original_sha256": "4360af163e5aa156b04e26a791661e53c05c62cb8cb75593dd977c4722e3ba80",
+      "rows": 39
+    },
+    "data/evaluation/regression39_rules.jsonl": {
+      "sha256": "79e32f247674b4ac64f97cdc354604e5f8fb2968859b295e2e87eaaf5a1b5a82",
+      "original_sha256": "27796b721d8ad14075cc4918e93d1f6525e37364319c54ac85e8adf605070f48",
+      "rows": 39
+    },
+    "data/evaluation/historical/base/dev_raw.jsonl": {
+      "sha256": "7dbd90125b01bd31be7691367cc211e108b2ac2671979fa60eae1cb8fd8b27f5",
+      "rows": 240,
+      "original_combined_sha256": "873154b713a47803ab9ab75a04f1c36727977ddf57ee451cb3984402e2d5bd1b"
+    },
+    "data/evaluation/historical/base/legacy39_raw.jsonl": {
+      "sha256": "5d49e065480139655647b3136192ca860b329d623bd39034581e532a3e07f7e0",
+      "rows": 39,
+      "original_combined_sha256": "8adfdde4ef66447ff6139a39cb4429d86eb545530270889532ce7e046c7a63ed"
+    },
+    "data/evaluation/historical/old/dev_raw.jsonl": {
+      "sha256": "1abaefe9a4af0db3ae869912ffc3f5d6dcdbef87b6febfe21315f78cf453acf3",
+      "rows": 240,
+      "original_combined_sha256": "873154b713a47803ab9ab75a04f1c36727977ddf57ee451cb3984402e2d5bd1b"
+    },
+    "data/evaluation/historical/old/legacy39_raw.jsonl": {
+      "sha256": "6362d387c1d1a1fe0db97d2acfa1afcdb3088363d811c6708fe4bb4dbf34eefe",
+      "rows": 39,
+      "original_combined_sha256": "8adfdde4ef66447ff6139a39cb4429d86eb545530270889532ce7e046c7a63ed"
+    },
+    "data/evaluation/historical/candidate/dev_raw.jsonl": {
+      "sha256": "1e0b70fc6ada2a5412b3d7f500b78461c5572726ddb58ac42683bc3a56679684",
+      "rows": 240,
+      "original_combined_sha256": "873154b713a47803ab9ab75a04f1c36727977ddf57ee451cb3984402e2d5bd1b"
+    },
+    "data/evaluation/historical/candidate/legacy39_raw.jsonl": {
+      "sha256": "5cf91337733a039c20e770fccceee4b440803b687180cbc27223c2110b409f40",
+      "rows": 39,
+      "original_combined_sha256": "8adfdde4ef66447ff6139a39cb4429d86eb545530270889532ce7e046c7a63ed"
+    },
+    "data/retention/arm_A/dev_raw.jsonl": {
+      "sha256": "d14003b515dfa38b0ed5f32e82531c623f17537e12f11bdc04bbc15b72be609e",
+      "rows": 240
+    },
+    "data/retention/arm_A/legacy39_raw.jsonl": {
+      "sha256": "51aa630d50add10d9cd05f590ca7bcd9e2277f181196242aa7bfd9809c4ee390",
+      "rows": 39
+    },
+    "data/retention/arm_A/generation_protocol.json": {
+      "sha256": "4d963b06071ecc4e937671697f00a84b7d22d75cb1b4dfe5de418fb43ee6dcf8",
+      "rows": null
+    },
+    "data/retention/arm_B/dev_raw.jsonl": {
+      "sha256": "436dec273e35400196904a3a52a37c52fddb4c7a0c91487396a466033b35dab5",
+      "rows": 240
+    },
+    "data/retention/arm_B/legacy39_raw.jsonl": {
+      "sha256": "716fb74a8cc79d3fa254417abfb901e96ee2959d32c84042b3061df2059256c9",
+      "rows": 39
+    },
+    "data/retention/arm_B/generation_protocol.json": {
+      "sha256": "7524988324402b83143c51d87986222cf868735ec932bd7fbc4e53c09a7e3259",
+      "rows": null
+    }
+  },
+  "models": {
+    "base": {
+      "adapter_sha256": null,
+      "adapter_config_sha256": null,
+      "seed": 20261010,
+      "world_size": 2,
+      "batch_size": 4,
+      "partition": "index_mod_world_size",
+      "torch_threads": 8,
+      "original_runtime_versions": {
+        "python": "3.12.3",
+        "torch": "2.5.1+cu124",
+        "transformers": "4.57.6",
+        "peft": "0.18.1",
+        "safetensors": "0.8.0",
+        "tokenizers": "0.22.2"
+      }
+    },
+    "old": {
+      "adapter_sha256": "c347c41a29570367f4443eb8de4a4a2c6265c1d2d1290722b334a51042e48f9a",
+      "adapter_config_sha256": "823da253d5978e1b3940627796073d3251867a9f13b8849c66abff7d2b52bc9f",
+      "seed": 20261010,
+      "world_size": 2,
+      "batch_size": 4,
+      "partition": "index_mod_world_size",
+      "torch_threads": 8,
+      "original_runtime_versions": {
+        "python": "3.12.3",
+        "torch": "2.5.1+cu124",
+        "transformers": "4.57.6",
+        "peft": "0.18.1",
+        "safetensors": "0.8.0",
+        "tokenizers": "0.22.2"
+      }
+    },
+    "candidate": {
+      "adapter_sha256": "790401e5906dd751a59ef2111bef12ccd58f07d9d9e3e1f9b124dda261164b9c",
+      "adapter_config_sha256": "1b9993dfe8dbc55f396982e659455590d5431463cf0bc505c5a8214c795c3655",
+      "seed": 20261010,
+      "world_size": 2,
+      "batch_size": 4,
+      "partition": "index_mod_world_size",
+      "torch_threads": 8,
+      "original_runtime_versions": {
+        "python": "3.12.3",
+        "torch": "2.5.1+cu124",
+        "transformers": "4.57.6",
+        "peft": "0.18.1",
+        "safetensors": "0.8.0",
+        "tokenizers": "0.22.2"
+      }
+    },
+    "A": {
+      "adapter_sha256": "b0ee5e32e662b645584dbe2bd59ed43b468fbf8ae9e2d8cba4eb78c17ce6e0b0",
+      "seed": 20261018,
+      "world_size": 1,
+      "batch_size": 4,
+      "partition": "sequential_original_order",
+      "torch_threads": 6,
+      "original_runtime_versions": {
+        "torch": "2.14.0+cu126",
+        "transformers": "4.57.6",
+        "tokenizers": "0.22.2",
+        "peft": "0.18.1"
+      }
+    },
+    "B": {
+      "adapter_sha256": "a1075aa789b2b2170453ef185f08e6d3cbc93790f265b7e5c08f839b90c085df",
+      "seed": 20261018,
+      "world_size": 1,
+      "batch_size": 4,
+      "partition": "sequential_original_order",
+      "torch_threads": 6,
+      "original_runtime_versions": {
+        "torch": "2.14.0+cu126",
+        "transformers": "4.57.6",
+        "tokenizers": "0.22.2",
+        "peft": "0.18.1"
+      }
+    }
+  },
+  "projection": "Only source-reference filesystem paths are portable. All model-visible messages, software inputs, gold and first answers are unchanged.",
+  "suites": {
+    "dev": {
+      "cases": 240,
+      "max_input_tokens": 1536,
+      "max_new_tokens": 512
+    },
+    "legacy39": {
+      "cases": 39,
+      "max_input_tokens": 4096,
+      "max_new_tokens": 1024
+    }
+  },
+  "base_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "base_files_sha256": {
+    "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+    "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+    "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+    "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+    "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+    "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc"
+  },
+  "tokenizer_files_sha256": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "68f2cfe250d0fd2c445bcbeb49183726d6c4dfca493bd10599742410c2fc4a79",
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "special_tokens_map.json": "a36726f7fe394c1324021cac4a9ee3ad6c4f6285c0d98721f9b0b95888ec9905",
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  "canonical_field_scorer_sha256": "2398bdd014ebcc2d2ecf25a47b88d74c62c28677809ac24478dede16d249fa1d"
+}

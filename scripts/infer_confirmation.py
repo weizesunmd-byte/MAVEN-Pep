@@ -1,5 +1,5 @@
-"""Optional GPU regeneration of first answers using externally supplied weights.
-The original greedy decoding calculation is retained. No model assets are downloaded.
+"""Regenerate confirmation first answers from the released, verified checkpoints.
+The original greedy decoding calculation is retained. Generation never reads gold.
 """
 import argparse, hashlib, json, pathlib, sys, time
 ROOT=pathlib.Path(__file__).resolve().parents[1]
@@ -7,6 +7,10 @@ BUNDLE=ROOT/'data/confirmation'
 def sha(path):return hashlib.sha256(pathlib.Path(path).read_bytes()).hexdigest()
 def rows(path):return [json.loads(x) for x in pathlib.Path(path).read_text(encoding='utf-8').splitlines() if x.strip()]
 def infer(args):
+ from verify_models import verify_paper_model
+ adapter=args.old_adapter if args.model=='old' else args.candidate if args.model=='candidate' else None
+ component={'old':'r1','candidate':'r6','base':None}[args.model]
+ verify_paper_model(args.base,args.tokenizer,adapter,component)
  import torch
  from transformers import AutoTokenizer,AutoModelForCausalLM,GenerationConfig,set_seed
  from peft import PeftModel
@@ -14,11 +18,10 @@ def infer(args):
  args.output_dir.mkdir(parents=True,exist_ok=True)
  out=args.output_dir/f'{args.model}.jsonl'
  if out.exists(): raise RuntimeError('Never overwrite first answers')
- tok=AutoTokenizer.from_pretrained(args.old_adapter,local_files_only=True);tok.padding_side='left'
+ tok=AutoTokenizer.from_pretrained(args.tokenizer,local_files_only=True);tok.padding_side='left'
  if tok.pad_token_id is None: tok.pad_token=tok.eos_token
  set_seed(20261010);torch.set_num_threads(8)
  model=AutoModelForCausalLM.from_pretrained(args.base,torch_dtype=torch.float16,attn_implementation='sdpa',local_files_only=True,device_map={'':f'cuda:{args.device}'})
- adapter=args.old_adapter if args.model=='old' else args.candidate if args.model=='candidate' else None
  if adapter: model=PeftModel.from_pretrained(model,adapter,is_trainable=False)
  model.eval()
  finite=[True]
@@ -52,9 +55,10 @@ def infer(args):
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--model',choices=['base','old','candidate'],required=True)
- p.add_argument('--base',type=pathlib.Path,required=True)
- p.add_argument('--old-adapter',type=pathlib.Path,required=True,help='Historical adapter and tokenizer directory')
- p.add_argument('--candidate',type=pathlib.Path)
+ p.add_argument('--base',type=pathlib.Path,default=ROOT/'models/Qwen3-8B')
+ p.add_argument('--old-adapter',type=pathlib.Path,default=ROOT/'models/r1')
+ p.add_argument('--candidate',type=pathlib.Path,default=ROOT/'models/r6')
+ p.add_argument('--tokenizer',type=pathlib.Path,default=ROOT/'models/tokenizer')
  p.add_argument('--device',type=int,default=0)
  p.add_argument('--output-dir',type=pathlib.Path,required=True)
  a=p.parse_args()
