@@ -1,6 +1,7 @@
 """Numerical regression checks against the released manuscript records."""
 from pathlib import Path
 import csv
+import json
 import math
 import subprocess
 import sys
@@ -16,6 +17,24 @@ def csvrows(path):
 
 
 class ReproductionTests(unittest.TestCase):
+    def test_model_bound_workflow_matches_supplementary_table(self):
+        run = subprocess.run(
+            [sys.executable, '-B', str(ROOT / 'scripts/offline_selection.py'),
+             '--planner', 'bound-local-record',
+             '--predictions', str(ROOT / 'data/workflow_example/predictions.jsonl'),
+             '--run-manifest', str(ROOT / 'data/workflow_example/run_manifest.json'),
+             '--model', 'R6_offline_single'],
+            check=True, capture_output=True, text=True, encoding='utf-8')
+        actual = json.loads(run.stdout)
+        self.assertTrue(actual['authenticated_model_record_used'])
+        expected = csvrows(ROOT / 'results/workflow_example/table_S8.csv')
+        self.assertEqual(len(expected), len(actual['candidates']))
+        for reference, candidate in zip(expected, actual['candidates']):
+            self.assertEqual(reference['candidate_id'], candidate['candidate_id'])
+            self.assertEqual(reference['sequence'], candidate['sequence'])
+            self.assertEqual(int(reference['length']), len(candidate['sequence']))
+            self.assertAlmostEqual(float(reference['priority']), candidate['priority'], delta=5.1e-7)
+
     def test_all_panel_members_and_numbers_match(self):
         with tempfile.TemporaryDirectory(prefix='maven-panels-') as temporary:
             output = Path(temporary)

@@ -1,0 +1,102 @@
+{
+  "schema": "maven.model_release_validation.v1",
+  "validation_date": "2026-10-19",
+  "model_manifest_sha256": "85274acfa48b34e63668ea8a95e9dfcea09dea460a2f2e42963f4ce898dc9eaa",
+  "checkpoint_source": "Independently extracted release archives, not the original training directories.",
+  "base_source": "Existing fixed-revision base files; every file verified against the release manifest and official publisher.",
+  "confirmation": {
+    "base": {
+      "cases": 48,
+      "semantic_success": 22,
+      "identical_archived_answer_text": 48,
+      "identical_archived_generated_token_count": 48
+    },
+    "old": {
+      "cases": 48,
+      "semantic_success": 0,
+      "identical_archived_answer_text": 48,
+      "identical_archived_generated_token_count": 48
+    },
+    "candidate": {
+      "cases": 48,
+      "semantic_success": 33,
+      "identical_archived_answer_text": 48,
+      "identical_archived_generated_token_count": 48
+    }
+  },
+  "continuation": {
+    "A": [
+      {
+        "suite": "dev",
+        "cases": 240,
+        "strict_success": 225,
+        "generated_tokens": 25802,
+        "identical_archived_answer_text": 240
+      },
+      {
+        "suite": "legacy39",
+        "cases": 39,
+        "strict_success": 31,
+        "generated_tokens": 1887,
+        "identical_archived_answer_text": 39
+      }
+    ],
+    "B": [
+      {
+        "suite": "dev",
+        "cases": 240,
+        "strict_success": 226,
+        "generated_tokens": 25616,
+        "identical_archived_answer_text": 240
+      },
+      {
+        "suite": "legacy39",
+        "cases": 39,
+        "strict_success": 30,
+        "generated_tokens": 1916,
+        "identical_archived_answer_text": 39
+      }
+    ]
+  },
+  "training_tokenizer_validation": {
+    "A": {
+      "rows": 4096,
+      "domain_rows": 4096,
+      "replay_rows": 0,
+      "input_tokens": 3843636,
+      "supervised_tokens": 400829,
+      "weighted_supervised_mass": 639884.4499999837,
+      "max_tokens": 1451,
+      "all_prompt_masks_zero": true,
+      "all_semantic_ids_labels_masks_unchanged": true
+    },
+    "B": {
+      "rows": 4096,
+      "domain_rows": 3277,
+      "replay_rows": 819,
+      "input_tokens": 3271195,
+      "supervised_tokens": 374210,
+      "weighted_supervised_mass": 567193.0333333234,
+      "max_tokens": 1451,
+      "all_prompt_masks_zero": true,
+      "all_semantic_ids_labels_masks_unchanged": true
+    }
+  },
+  "environment": {
+    "torch": "2.14.0+cu126",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "device": "Tesla PG500-216"
+  },
+  "workflow_example": {
+    "cases": 1,
+    "candidates": 10,
+    "matches_supplementary_table_S8": true,
+    "identical_archived_answer_text": true,
+    "generation_worker_sha256": "0522457a7fcdc117b986680afc15ee77be116beb65850799b1db3a85710fd9fd"
+  },
+  "fresh_model_inference_cases": 703,
+  "training_validation_scope": "Exact selected visits, token counts, supervision masks and semantic loss weights verified. The release check did not repeat optimizer training; historical 128-update run records are retained.",
+  "core_evaluation_code_commit": "103cc08895d9f71e9a318d6bb5151b915bd35be1",
+  "source_scope": "Core confirmation/continuation generation and scoring use the pinned code commit. The additional workflow generation worker is identified by its separate SHA-256."
+}

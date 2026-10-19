@@ -12,6 +12,7 @@ public projection hashes and the corresponding original hashes.
 | Material | Released location | Role |
 | --- | --- | --- |
 | Confirmation 48 | `data/confirmation/` | Separate frozen follow-up evaluation, including three sets of first answers |
+| Bound single-request example | `data/workflow_example/` | Original public case, R6 first answer, completed model binding and protocol for the supplementary candidate table |
 | Development 240 and legacy 39 | `data/evaluation/` | Public inputs and scoring references; historical base/R1/R6 answers in `historical/` |
 | Continuation A/B first answers | `data/retention/arm_A/`, `arm_B/` | Original dev and legacy generations, plus case scores |
 | Continuation domain rows | `data/training/domain_rows.jsonl.gz` | Fixed domain examples for A/B |
@@ -41,10 +42,13 @@ MAVEN-Pep's research-use license does not relicense third-party material.
 
 * [DBAASP](https://dbaasp.org/) supplies peptide identities and assay fields.
   Its [terms](https://dbaasp.org/terms-and-conditions) require attribution when
-  material is copied, adapted or redistributed.
+  material is copied, adapted or redistributed. Database credit:
+  [Pirtskhalava and colleagues, DBAASP v3 (2021)](https://doi.org/10.1093/nar/gkaa991).
 * [DRAMP](https://dramp.cpu-bioinfor.org/) supplies peptide identities and
   annotated properties under its published CC BY 4.0 notice. Cite DRAMP and
-  retain applicable source terms.
+  retain applicable source terms, including its original-article and
+  patent-related permissions notice. Database credit:
+  [Ma and colleagues, DRAMP 4.0 (2025)](https://pubmed.ncbi.nlm.nih.gov/39526377/).
 * [Propedia v2.3](https://github.com/LBS-UFMG/propedia) supplies peptide–protein
   complex identifiers and structural facts. Cite Martins and colleagues'
   [2021 description](https://doi.org/10.1186/s12859-020-03881-z) and

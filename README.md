@@ -11,7 +11,7 @@ licenses and database attribution remain applicable.
 
 ## Reproduce the numerical results without a GPU
 
-Use Python 3.11 or newer from the repository root. These commands use the Python
+Use Python 3.10 or newer from the repository root. These commands use the Python
 standard library and the released first answers, without a model or API key.
 
 ```bash
@@ -19,6 +19,13 @@ python -B scripts/offline_selection.py --validate
 python -B scripts/compare_panels.py --output-dir reproduced/mechanism_panel
 python -B scripts/reproduce_model_results.py --output-dir reproduced/recorded
 python -B -m unittest discover -s tests -v
+```
+
+The supplementary single-request candidate example can also be replayed using
+its archived, request-bound R6 answer:
+
+```bash
+python -B scripts/offline_selection.py --planner bound-local-record --predictions data/workflow_example/predictions.jsonl --run-manifest data/workflow_example/run_manifest.json --model R6_offline_single
 ```
 
 | Result | Recorded value |
@@ -63,9 +70,12 @@ into ignored `models/`; `--output-dir` selects another location.
 Use a CUDA-compatible PyTorch build for your hardware, then install
 `requirements-gpu.txt`. The confirmation and continuation records used PyTorch
 2.14.0+cu126, CUDA 12.6, Transformers 4.57.6 and PEFT 0.18.1 on a 32 GB Tesla
-PG500-216. Use FP16 and SDPA; verify support for your GPU architecture.
+PG500-216 with Python 3.10.12. Use FP16 and SDPA; verify support for your GPU
+architecture. The recorded CUDA 12.6 build is available from the
+[official PyTorch index](https://download.pytorch.org/whl/cu126/torch/).
 
 ```bash
+python -m pip install torch==2.14.0+cu126 --index-url https://download.pytorch.org/whl/cu126
 python -m pip install -r requirements-gpu.txt
 python -B scripts/infer_confirmation.py --model base --output-dir reproduced/new_confirmation
 python -B scripts/infer_confirmation.py --model old --output-dir reproduced/new_confirmation
@@ -77,6 +87,13 @@ Generation uses public cases only, verifies weights before model allocation, and
 refuses to overwrite first answers. It retains greedy decoding, disabled
 thinking, four-case batches and the 480-token output limit. Scoring is a separate
 CPU command and checks the reported success counts and paired bootstrap.
+
+To regenerate the separate end-to-end workflow example, then select its panel:
+
+```bash
+python -B scripts/infer_workflow_example.py --output-dir reproduced/new_workflow_example
+python -B scripts/offline_selection.py --planner bound-local-record --predictions reproduced/new_workflow_example/predictions.jsonl --run-manifest reproduced/new_workflow_example/run_manifest.json --model R6_offline_single
+```
 
 For continuation A/B, generate and score each arm separately:
 
@@ -139,3 +156,15 @@ conceptual workflow illustrations are provided in the manuscript and supplement.
 See [data and source attribution](docs/reproduction_data.md) for the evaluation
 inputs, scoring references, database-derived fact projections and upstream terms.
 No credentials or full third-party database dumps are included.
+
+## Release validation
+
+The released archives were installed into a separate checkout and verified before
+new inference on 19 October 2026. All 144 confirmation answers, 558 continuation
+evaluation answers and the separate workflow answer matched the archived text:
+703 newly generated answers in total. Scores, generated-token totals and the
+supplementary candidate table matched the recorded results. Both 4,096-visit
+training schedules also reproduced the original token counts, supervision masks
+and semantic loss weights. Optimizer training was not repeated during this
+release check. The measured results and environment are in
+[`results/release_validation.json`](results/release_validation.json).

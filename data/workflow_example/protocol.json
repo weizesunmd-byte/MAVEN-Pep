@@ -1,0 +1,11 @@
+{
+  "max_input_tokens": 2048,
+  "schema": "offline_single_request.v1",
+  "max_new_tokens": 480,
+  "no_prompt_repair": true,
+  "frozen_before_first_answer": true,
+  "driver_sha256": "7B79FDDD1A140DE102D6503F46E9F309599708B4F1AF5F2BA6F4F4C50D5BF0C6",
+  "candidate_sha256": "790401E5906DD751A59EF2111BEF12CCD58F07D9D9E3E1F9B124DDA261164B9C",
+  "case_file_sha256": "DE0767FCE86C85C89011945903A1373086E98F4A63A75C7E2AE2029088C5F1DF",
+  "independent_of_48_confirmation": true
+}
