@@ -1,0 +1,36 @@
+{
+  "status": "completed_real_optimizer_updates",
+  "arm": "B",
+  "protocol_sha256": "be2abd6877f319c3013e03f71f4ad5b254c004a8c0f61e24eb71a56f634ca5d3",
+  "parent_adapter_sha256": "790401e5906dd751a59ef2111bef12ccd58f07d9d9e3e1f9b124dda261164b9c",
+  "actual_optimizer_updates": 128,
+  "attempted_updates": 128,
+  "skipped_updates": 0,
+  "finite_gradient_steps": 128,
+  "changed_trainable_elements": 43637117,
+  "max_absolute_parameter_delta": 8.953176438808441e-05,
+  "initial_trainable_sha256": "49d5cc7f9444192fd9d8e647eda13d745db7135d109013ab4e73e53fce7a433f",
+  "final_trainable_sha256": "8a39066a62937bb5c97f6ff68b16d508a55e3e27f1d76c98ed2342d0682409fd",
+  "adapter_sha256": "a1075aa789b2b2170453ef185f08e6d3cbc93790f265b7e5c08f839b90c085df",
+  "adapter_config_sha256": "c406a0d1e3a2ecc6c606d01cf0dd480f10ca361e0096d7f8fcbeb05a7abec22a",
+  "peak_allocated_bytes": 20636079104,
+  "peak_reserved_bytes": 33109835776,
+  "wall_seconds": 5623.484826214997,
+  "token_stats": {
+    "rows": 4096,
+    "domain_rows": 3277,
+    "replay_rows": 819,
+    "input_tokens": 3271195,
+    "supervised_tokens": 374210,
+    "weighted_supervised_mass": 567193.0333333234,
+    "max_tokens": 1451,
+    "all_prompt_masks_zero": true,
+    "all_semantic_ids_labels_masks_unchanged": true,
+    "arm": "B",
+    "tokenizer": "real_fast_offsets_assistant_only",
+    "versions": {
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2"
+    }
+  }
+}

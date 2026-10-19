@@ -1,0 +1,14 @@
+{
+  "torch": "2.14.0+cu126",
+  "transformers": "4.57.6",
+  "peft": "0.18.1",
+  "numpy": "2.2.6",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "gpu": "Tesla PG500-216",
+  "cuda": "12.6",
+  "visible_devices": "0",
+  "trainable_parameters": 43646976,
+  "initial_trainable_sha256": "49d5cc7f9444192fd9d8e647eda13d745db7135d109013ab4e73e53fce7a433f",
+  "protocol_sha256": "be2abd6877f319c3013e03f71f4ad5b254c004a8c0f61e24eb71a56f634ca5d3",
+  "worker_sha256": "09d69a7d369ac038c96cd58f15efe74f7410c5b3f6cded0d4284df5173bbe804"
+}

@@ -1,0 +1,5 @@
+﻿arm,suite,cases,strict_success,false_advance,nonrun_denominator,correct_run,gold_run_denominator,legacy_field_score,training_input_tokens,training_supervised_tokens,evaluation_generated_tokens,actual_updates,peak_allocated_bytes,training_seconds
+A,dev,240,225,3,156,73,84,,3843636,400829,25802,128,20636849152,9196.633430839003
+A,legacy39,39,31,,,,,91.88034188034187,3843636,400829,1887,128,20636849152,9196.633430839003
+B,dev,240,226,3,156,74,84,,3271195,374210,25616,128,20636079104,5623.484826214997
+B,legacy39,39,30,,,,,90.85470085470085,3271195,374210,1916,128,20636079104,5623.484826214997

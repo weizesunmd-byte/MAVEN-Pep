@@ -1,0 +1,276 @@
+{
+  "panel": "three_model_supplement_not_complete_original_eleven",
+  "models": {
+    "base": {
+      "success": 22,
+      "n": 48,
+      "by_task": {
+        "claim_scope": {
+          "success": 3,
+          "n": 8
+        },
+        "feedback_gate": {
+          "success": 5,
+          "n": 8
+        },
+        "identity_gate": {
+          "success": 5,
+          "n": 8
+        },
+        "interpret_ranking": {
+          "success": 5,
+          "n": 8
+        },
+        "plan_discovery": {
+          "success": 1,
+          "n": 8
+        },
+        "resolve_measurement": {
+          "success": 3,
+          "n": 8
+        }
+      },
+      "by_expected_action": {
+        "request_information": {
+          "success": 2,
+          "n": 12
+        },
+        "run": {
+          "success": 17,
+          "n": 24
+        },
+        "stop": {
+          "success": 3,
+          "n": 12
+        }
+      },
+      "json_valid_count": 48,
+      "schema_valid_count": 45,
+      "dangerous_acceptance": 14,
+      "valid_run_coverage": 0.7083333333333334
+    },
+    "candidate": {
+      "success": 33,
+      "n": 48,
+      "by_task": {
+        "claim_scope": {
+          "success": 7,
+          "n": 8
+        },
+        "feedback_gate": {
+          "success": 6,
+          "n": 8
+        },
+        "identity_gate": {
+          "success": 8,
+          "n": 8
+        },
+        "interpret_ranking": {
+          "success": 4,
+          "n": 8
+        },
+        "plan_discovery": {
+          "success": 5,
+          "n": 8
+        },
+        "resolve_measurement": {
+          "success": 3,
+          "n": 8
+        }
+      },
+      "by_expected_action": {
+        "request_information": {
+          "success": 11,
+          "n": 12
+        },
+        "run": {
+          "success": 14,
+          "n": 24
+        },
+        "stop": {
+          "success": 8,
+          "n": 12
+        }
+      },
+      "json_valid_count": 48,
+      "schema_valid_count": 48,
+      "dangerous_acceptance": 1,
+      "valid_run_coverage": 0.5833333333333334
+    },
+    "old": {
+      "success": 0,
+      "n": 48,
+      "by_task": {
+        "claim_scope": {
+          "success": 0,
+          "n": 8
+        },
+        "feedback_gate": {
+          "success": 0,
+          "n": 8
+        },
+        "identity_gate": {
+          "success": 0,
+          "n": 8
+        },
+        "interpret_ranking": {
+          "success": 0,
+          "n": 8
+        },
+        "plan_discovery": {
+          "success": 0,
+          "n": 8
+        },
+        "resolve_measurement": {
+          "success": 0,
+          "n": 8
+        }
+      },
+      "by_expected_action": {
+        "request_information": {
+          "success": 0,
+          "n": 12
+        },
+        "run": {
+          "success": 0,
+          "n": 24
+        },
+        "stop": {
+          "success": 0,
+          "n": 12
+        }
+      },
+      "json_valid_count": 48,
+      "schema_valid_count": 0,
+      "dangerous_acceptance": 0,
+      "valid_run_coverage": 0.0
+    },
+    "privileged_structured_rule": {
+      "success": 48,
+      "n": 48,
+      "by_task": {
+        "claim_scope": {
+          "success": 8,
+          "n": 8
+        },
+        "feedback_gate": {
+          "success": 8,
+          "n": 8
+        },
+        "identity_gate": {
+          "success": 8,
+          "n": 8
+        },
+        "interpret_ranking": {
+          "success": 8,
+          "n": 8
+        },
+        "plan_discovery": {
+          "success": 8,
+          "n": 8
+        },
+        "resolve_measurement": {
+          "success": 8,
+          "n": 8
+        }
+      },
+      "by_expected_action": {
+        "request_information": {
+          "success": 12,
+          "n": 12
+        },
+        "run": {
+          "success": 24,
+          "n": 24
+        },
+        "stop": {
+          "success": 12,
+          "n": 12
+        }
+      },
+      "json_valid_count": null,
+      "schema_valid_count": null,
+      "dangerous_acceptance": 0,
+      "valid_run_coverage": 1.0
+    },
+    "public_only_deterministic_rule": {
+      "success": 40,
+      "n": 48,
+      "by_task": {
+        "claim_scope": {
+          "success": 0,
+          "n": 8
+        },
+        "feedback_gate": {
+          "success": 8,
+          "n": 8
+        },
+        "identity_gate": {
+          "success": 8,
+          "n": 8
+        },
+        "interpret_ranking": {
+          "success": 8,
+          "n": 8
+        },
+        "plan_discovery": {
+          "success": 8,
+          "n": 8
+        },
+        "resolve_measurement": {
+          "success": 8,
+          "n": 8
+        }
+      },
+      "by_expected_action": {
+        "request_information": {
+          "success": 10,
+          "n": 12
+        },
+        "run": {
+          "success": 20,
+          "n": 24
+        },
+        "stop": {
+          "success": 10,
+          "n": 12
+        }
+      },
+      "json_valid_count": 48,
+      "schema_valid_count": 48,
+      "dangerous_acceptance": 0,
+      "valid_run_coverage": 0.8333333333333334
+    }
+  },
+  "paired_comparisons": [
+    {
+      "left": "candidate",
+      "right": "base",
+      "difference_percentage_points": 22.916666666666668,
+      "cluster_bootstrap_95_percentile_pp": [
+        0.0,
+        45.833333333333336
+      ],
+      "fact_groups": 12,
+      "resamples": 10000,
+      "seed": 20261018,
+      "scope": "Conditional on these 12 fixed project fact groups and frozen existing contracts. No population-wide biological generalization."
+    },
+    {
+      "left": "candidate",
+      "right": "public_only_deterministic_rule",
+      "difference_percentage_points": -14.583333333333334,
+      "cluster_bootstrap_95_percentile_pp": [
+        -41.666666666666664,
+        16.666666666666668
+      ],
+      "fact_groups": 12,
+      "resamples": 10000,
+      "seed": 20261018,
+      "scope": "Conditional on these 12 fixed project fact groups and frozen existing contracts. No population-wide biological generalization."
+    }
+  ],
+  "guard_note": "Zero post-validator acceptance errors follow by construction from using identical truth rules; use correct-run coverage to quantify the usability cost.",
+  "rule_note": "Public rules receive public input only; source_excerpt versus protected evidence.level is an interface limitation. Privileged rule is the scorer oracle upper bound, not a fair practical baseline.",
+  "format_note": "Original contracts.validate_response: accepts one JSON object or one exact JSON fence; rejects duplicate keys, NaN and schema/unknown-field violations. Public rule exceptions count as format failures. Oracle upper-bound format counts are not applicable. Primary semantic scores are unchanged."
+}

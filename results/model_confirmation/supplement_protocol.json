@@ -1,0 +1,28 @@
+{
+  "schema": "maven_confirmation_three_model_supplement.v1",
+  "frozen_before_inference": true,
+  "original_protocol_unchanged": true,
+  "original_eleven_model_panel_complete": false,
+  "models": [
+    "base",
+    "old",
+    "candidate"
+  ],
+  "candidate": "R6 semantic frozen submitted weight",
+  "cases": 48,
+  "groups": 12,
+  "max_input_tokens": 2048,
+  "max_new_tokens": 480,
+  "do_sample": false,
+  "enable_thinking": false,
+  "batch_size": 4,
+  "precision": "fp16",
+  "attention": "sdpa",
+  "no_selection_or_repair": true,
+  "score_source": "original contracts.py score_response",
+  "rule_baseline": "reference_answer on normalized scoring_input, privileged structured baseline, not natural-language scientific expert",
+  "post_validation": "all semantic violations blocked; compare accepted correct-run coverage, zero errors guaranteed by construction",
+  "script_sha256": "82E9241D8919AE1E146953D2D52C4D88B9E9849614055DD319E5CEC1C54DDD4B",
+  "public_sha256": "03D99AF02A7A11F624EA3F42F57E4EAF3F6D5E1B1D6A8A70462F307D52D5B48D",
+  "candidate_sha256": "790401E5906DD751A59EF2111BEF12CCD58F07D9D9E3E1F9B124DDA261164B9C"
+}

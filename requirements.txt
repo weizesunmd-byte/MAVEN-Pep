@@ -1,0 +1,4 @@
+# Offline selection and re-scoring use only Python >=3.11 standard library.
+# Install this file for figure and Monte Carlo reproduction.
+numpy>=2.0,<3
+matplotlib>=3.9,<4

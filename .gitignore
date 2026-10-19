@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+reproduced/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+data/training/*.jsonl

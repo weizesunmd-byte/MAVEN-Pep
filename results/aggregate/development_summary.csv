@@ -1,0 +1,4 @@
+﻿model,development_cases,development_groups,semantic_success,semantic_success_rate,false_advance,nonrun_cases,valid_run_success,valid_run_cases,old_field_score,old_strict_success,old_cases,interpretation
+base,240,108,112,0.4666666666666667,81,156,66,84,93.71794871794872,32,39,development_and_regression_not_unseen_test
+old,240,108,0,0.0,0,156,0,84,95.85470085470085,35,39,development_and_regression_not_unseen_test
+candidate,240,108,225,0.9375,3,156,73,84,91.36752136752136,30,39,development_and_regression_not_unseen_test

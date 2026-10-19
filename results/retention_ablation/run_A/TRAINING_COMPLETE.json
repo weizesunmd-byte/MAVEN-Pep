@@ -1,0 +1,36 @@
+{
+  "status": "completed_real_optimizer_updates",
+  "arm": "A",
+  "protocol_sha256": "be2abd6877f319c3013e03f71f4ad5b254c004a8c0f61e24eb71a56f634ca5d3",
+  "parent_adapter_sha256": "790401e5906dd751a59ef2111bef12ccd58f07d9d9e3e1f9b124dda261164b9c",
+  "actual_optimizer_updates": 128,
+  "attempted_updates": 128,
+  "skipped_updates": 0,
+  "finite_gradient_steps": 128,
+  "changed_trainable_elements": 43637009,
+  "max_absolute_parameter_delta": 0.00010616891086101532,
+  "initial_trainable_sha256": "49d5cc7f9444192fd9d8e647eda13d745db7135d109013ab4e73e53fce7a433f",
+  "final_trainable_sha256": "aa702f5a7bb803f29d750b6b2f56fd73dff20bda9830aa54b88c1afae11c3054",
+  "adapter_sha256": "b0ee5e32e662b645584dbe2bd59ed43b468fbf8ae9e2d8cba4eb78c17ce6e0b0",
+  "adapter_config_sha256": "d3733fd5286bd12ac6f54dc3a0ad452d59f6f7294fa1016cd4dfc9a327a5faca",
+  "peak_allocated_bytes": 20636849152,
+  "peak_reserved_bytes": 33613152256,
+  "wall_seconds": 9196.633430839003,
+  "token_stats": {
+    "rows": 4096,
+    "domain_rows": 4096,
+    "replay_rows": 0,
+    "input_tokens": 3843636,
+    "supervised_tokens": 400829,
+    "weighted_supervised_mass": 639884.4499999837,
+    "max_tokens": 1451,
+    "all_prompt_masks_zero": true,
+    "all_semantic_ids_labels_masks_unchanged": true,
+    "arm": "A",
+    "tokenizer": "real_fast_offsets_assistant_only",
+    "versions": {
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model": "public_only_deterministic_rule",
+  "n": 48,
+  "success": 40,
+  "dangerous_acceptance": 0,
+  "exceptions": 0,
+  "by_task": {
+    "claim_scope": 0,
+    "feedback_gate": 8,
+    "identity_gate": 8,
+    "interpret_ranking": 8,
+    "plan_discovery": 8,
+    "resolve_measurement": 8
+  },
+  "public_responses_frozen_before_gold": "3e222cc1f81feff73cd472a4735d34d3a2f8ee060ee8579f2b80a3032deaf5aa",
+  "limitation": "Uses only already structured public input. No hidden evidence.level is filled; failure on text-only claim evidence remains a failure. Not a natural-language scientific expert."
+}

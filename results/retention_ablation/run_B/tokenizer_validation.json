@@ -1,0 +1,17 @@
+{
+  "rows": 4096,
+  "domain_rows": 3277,
+  "replay_rows": 819,
+  "input_tokens": 3271195,
+  "supervised_tokens": 374210,
+  "weighted_supervised_mass": 567193.0333333234,
+  "max_tokens": 1451,
+  "all_prompt_masks_zero": true,
+  "all_semantic_ids_labels_masks_unchanged": true,
+  "arm": "B",
+  "tokenizer": "real_fast_offsets_assistant_only",
+  "versions": {
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2"
+  }
+}

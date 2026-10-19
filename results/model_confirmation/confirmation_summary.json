@@ -1,0 +1,71 @@
+{
+  "panel": "three_model_supplement_incomplete_original_eleven",
+  "predictions_frozen_before_gold": {
+    "base.jsonl": "b15c2c0087e6e6e2e37bc5eeb89c1dffb3cfafa375659cab49964d9d8f382114",
+    "old.jsonl": "213e9569c6276fcf3a1a8acbe2b401020a33e90821f7e53e8b885d32954158ca",
+    "candidate.jsonl": "6985e598c6bd7b070c4c8e84c9bf749af1f16331fba443385e153f1f48b7f949"
+  },
+  "models": {
+    "base": {
+      "n": 48,
+      "success": 22,
+      "dangerous_acceptance": 14,
+      "valid_run_coverage": 0.7083333333333334,
+      "post_validator_dangerous_acceptance": 0,
+      "by_task": {
+        "claim_scope": 3,
+        "feedback_gate": 5,
+        "identity_gate": 5,
+        "interpret_ranking": 5,
+        "plan_discovery": 1,
+        "resolve_measurement": 3
+      }
+    },
+    "old": {
+      "n": 48,
+      "success": 0,
+      "dangerous_acceptance": 0,
+      "valid_run_coverage": 0.0,
+      "post_validator_dangerous_acceptance": 0,
+      "by_task": {
+        "claim_scope": 0,
+        "feedback_gate": 0,
+        "identity_gate": 0,
+        "interpret_ranking": 0,
+        "plan_discovery": 0,
+        "resolve_measurement": 0
+      }
+    },
+    "candidate": {
+      "n": 48,
+      "success": 33,
+      "dangerous_acceptance": 1,
+      "valid_run_coverage": 0.5833333333333334,
+      "post_validator_dangerous_acceptance": 0,
+      "by_task": {
+        "claim_scope": 7,
+        "feedback_gate": 6,
+        "identity_gate": 8,
+        "interpret_ranking": 4,
+        "plan_discovery": 5,
+        "resolve_measurement": 3
+      }
+    },
+    "privileged_structured_rule": {
+      "n": 48,
+      "success": 48,
+      "dangerous_acceptance": 0,
+      "valid_run_coverage": 1.0,
+      "post_validator_dangerous_acceptance": 0,
+      "by_task": {
+        "claim_scope": 8,
+        "feedback_gate": 8,
+        "identity_gate": 8,
+        "interpret_ranking": 8,
+        "plan_discovery": 8,
+        "resolve_measurement": 8
+      }
+    }
+  },
+  "rule_limitation": "Privileged normalized structured payload, including private normalized evidence level for claim_scope; not a natural-language expert baseline. Post-validator uses identical executable truth rules, so zero accepted errors is guaranteed by construction and model benefit is coverage."
+}

@@ -1,0 +1,8 @@
+{
+  "validator": "original contracts.validate_response(task, raw_output)",
+  "script_sha256": "021C256217A39255C7CECAE0AE7BC76932BACF880CF7F6CDC81A08F867C29C42",
+  "declared_before_any_score_read": true,
+  "primary_score_changed": false,
+  "schema": "format_descriptives.v1",
+  "gold_read": false
+}

@@ -1,0 +1,777 @@
+[
+  {
+    "source": "UniProt",
+    "entity": "P01031",
+    "evidence_type": "protein_sequence",
+    "value": "MGLLGILCFLIFLGKTWGQEQTYVISAPKIFRVGASENIVIQVYGYTEAFDATISIKSYPDKKFSYSSGHVHLSSENKFQNSAILTIQPKQLPGGQNPVSYVYLEVVSKHFSKSKRMPITYDNGFLFIHTDKPVYTPDQSVKVRVYSLNDDLKPAKRETVLTFIDPEGSEVDMVEEIDHIGIISFPDFKIPSNPRYGMWTIKAKYKEDFSTTGTAYFEVKEYVLPHFSVSIEPEYNFIGYKNFKNFEITIKARYFYNKVVTEADVYITFGIREDLKDDQKEMMQTAMQNTMLINGIAQVTFDSETAVKELSYYSLEDLNNKYLYIAVTVIESTGGFSEEAEIPGIKYVLSPYKLNLVATPLFLKPGIPYPIKVQVKDSLDQLVGGVPVTLNAQTIDVNQETSDLDPSKSVTRVDDGVASFVLNLPSGVTVLEFNVKTDAPDLPEENQAREGYRAIAYSSLSQSYLYIDWTDNHKALLVGEHLNIIVTPKSPYIDKITHYNYLILSKGKIIHFGTREKFSDASYQSINIPVTQNMVPSSRLLVYYIVTGEQTAELVSDSVWLNIEEKCGNQLQVHLSPDADAYSPGQTVSLNMATGMDSWVALAAVDSAVYGVQRGAKKPLERVFQFLEKSDLGCGAGGGLNNANVFHLAGLTFLTNANADDSQENDEPCKEILRPRRTLQKKIEEIAAKYKHSVVKKCCYDGACVNNDETCEQRAARISLGPRCIKAFTECCVVASQLRANISHKDMQLGRLHMKTLLPVSKPEIRSYFPESWLWEVHLVPRRKQLQFALPDSLTTWEIQGVGISNTGICVADTVKAKVFKDVFLEMNIPYSVVRGEQIQLKGTVYNYRTSGMQFCVKMSAVEGICTSESPVIDHQGTKSSKCVRQKVEGSSSHLVTFTVLPLEIGLHNINFSLETWFGKEILVKTLRVVPEGVKRESYSGVTLDPRGIYGTISRRKEFPYRIPLDLVPKTEIKRILSVKGLLVGEILSAVLSQEGINILTHLPKGSAEAELMSVVPVFYVFHYLETGNHWNIFHSDPLIEKQKLKKKLKEGMLSIMSYRNADYSYSVWKGGSASTWLTAFALRVLGQVNKYVEQNQNSICNSLLWLVENYQLDNGSFKENSQYQPIKLQGTLPVEARENSLYLTAFTVIGIRKAFDICPLVKIDTALIKADNFLLENTLPAQSTFTLAISAYALSLGDKTHPQFRSIVSALKREALVKGNPPIYRFWKDNLQHKDSSVPNTGTARMVETTAYALLTSLNLKDINYVNPVIKWLSEEQRYGGGFYSTQDTINAIEGLTEYSLLVKQLRLSMDIDVSYKHKGALHNYKMTDKNFLGRPVEVLLNDDLIVSTGFGSGLATVHVTTVVHKTSTSEEVCSFYLKIDTQDIEASHYRGYGNSDYKRIVACASYKPSREESSSGSSHAVMDISLPTGISANEEDLKALVEGVDQLFTDYQIKDGHVILQLNSIPSSDFLCVRFRIFELFEVGFLSPATFTVYEYHRPDKQCTMFYSTSNIKIQKVCEGAACKCVEADCGQMQEELDLTISAETRKQTACKPEIAYAYKVSITSITVENVFVKYKATLLDIYKTGEAVAEKDSEITFIKKVTCTNAELVKGRQYLIMGKEALQIKYNFSFRYIYPLDSLTWIEYWPRDTTCSSCQAFLANLDEFAEDIFLNGC",
+    "confidence": null,
+    "reference": "https://www.uniprot.org/uniprotkb/P01031",
+    "status": "available",
+    "scope": "reference protein sequence",
+    "evidence_id": "E000003"
+  },
+  {
+    "source": "UniProt",
+    "entity": "P01031",
+    "evidence_type": "target_information",
+    "value": {
+      "accession": "P01031",
+      "protein_description": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Complement C5"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "C3 and PZP-like alpha-2-macroglobulin domain-containing protein 4"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Complement C5 beta chain"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Complement C5 alpha chain"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "C5a anaphylatoxin"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Complement C5b"
+              }
+            },
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "Complement C5 alpha' chain"
+                }
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "1984448"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:1331"
+              }
+            ],
+            "value": "C5"
+          },
+          "synonyms": [
+            {
+              "value": "CPAMD4"
+            }
+          ]
+        }
+      ],
+      "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+          "Eukaryota",
+          "Metazoa",
+          "Chordata",
+          "Craniata",
+          "Vertebrata",
+          "Euteleostomi",
+          "Mammalia",
+          "Eutheria",
+          "Euarchontoglires",
+          "Primates",
+          "Haplorrhini",
+          "Catarrhini",
+          "Hominidae",
+          "Homo"
+        ]
+      },
+      "sequence": "MGLLGILCFLIFLGKTWGQEQTYVISAPKIFRVGASENIVIQVYGYTEAFDATISIKSYPDKKFSYSSGHVHLSSENKFQNSAILTIQPKQLPGGQNPVSYVYLEVVSKHFSKSKRMPITYDNGFLFIHTDKPVYTPDQSVKVRVYSLNDDLKPAKRETVLTFIDPEGSEVDMVEEIDHIGIISFPDFKIPSNPRYGMWTIKAKYKEDFSTTGTAYFEVKEYVLPHFSVSIEPEYNFIGYKNFKNFEITIKARYFYNKVVTEADVYITFGIREDLKDDQKEMMQTAMQNTMLINGIAQVTFDSETAVKELSYYSLEDLNNKYLYIAVTVIESTGGFSEEAEIPGIKYVLSPYKLNLVATPLFLKPGIPYPIKVQVKDSLDQLVGGVPVTLNAQTIDVNQETSDLDPSKSVTRVDDGVASFVLNLPSGVTVLEFNVKTDAPDLPEENQAREGYRAIAYSSLSQSYLYIDWTDNHKALLVGEHLNIIVTPKSPYIDKITHYNYLILSKGKIIHFGTREKFSDASYQSINIPVTQNMVPSSRLLVYYIVTGEQTAELVSDSVWLNIEEKCGNQLQVHLSPDADAYSPGQTVSLNMATGMDSWVALAAVDSAVYGVQRGAKKPLERVFQFLEKSDLGCGAGGGLNNANVFHLAGLTFLTNANADDSQENDEPCKEILRPRRTLQKKIEEIAAKYKHSVVKKCCYDGACVNNDETCEQRAARISLGPRCIKAFTECCVVASQLRANISHKDMQLGRLHMKTLLPVSKPEIRSYFPESWLWEVHLVPRRKQLQFALPDSLTTWEIQGVGISNTGICVADTVKAKVFKDVFLEMNIPYSVVRGEQIQLKGTVYNYRTSGMQFCVKMSAVEGICTSESPVIDHQGTKSSKCVRQKVEGSSSHLVTFTVLPLEIGLHNINFSLETWFGKEILVKTLRVVPEGVKRESYSGVTLDPRGIYGTISRRKEFPYRIPLDLVPKTEIKRILSVKGLLVGEILSAVLSQEGINILTHLPKGSAEAELMSVVPVFYVFHYLETGNHWNIFHSDPLIEKQKLKKKLKEGMLSIMSYRNADYSYSVWKGGSASTWLTAFALRVLGQVNKYVEQNQNSICNSLLWLVENYQLDNGSFKENSQYQPIKLQGTLPVEARENSLYLTAFTVIGIRKAFDICPLVKIDTALIKADNFLLENTLPAQSTFTLAISAYALSLGDKTHPQFRSIVSALKREALVKGNPPIYRFWKDNLQHKDSSVPNTGTARMVETTAYALLTSLNLKDINYVNPVIKWLSEEQRYGGGFYSTQDTINAIEGLTEYSLLVKQLRLSMDIDVSYKHKGALHNYKMTDKNFLGRPVEVLLNDDLIVSTGFGSGLATVHVTTVVHKTSTSEEVCSFYLKIDTQDIEASHYRGYGNSDYKRIVACASYKPSREESSSGSSHAVMDISLPTGISANEEDLKALVEGVDQLFTDYQIKDGHVILQLNSIPSSDFLCVRFRIFELFEVGFLSPATFTVYEYHRPDKQCTMFYSTSNIKIQKVCEGAACKCVEADCGQMQEELDLTISAETRKQTACKPEIAYAYKVSITSITVENVFVKYKATLLDIYKTGEAVAEKDSEITFIKKVTCTNAELVKGRQYLIMGKEALQIKYNFSFRYIYPLDSLTWIEYWPRDTTCSSCQAFLANLDEFAEDIFLNGC",
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12878586"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18204047"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30643019"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "39814882"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "39914456"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "6554279"
+                }
+              ],
+              "value": "Precursor of the C5a anaphylatoxin and complement C5b components of the complement pathways, which consist in a cascade of proteins that leads to phagocytosis and breakdown of pathogens and signaling that strengthens the adaptive immune system (PubMed:12878586, PubMed:18204047, PubMed:30643019, PubMed:6554279). Activated downstream of classical, alternative, lectin and GZMK complement pathways (PubMed:12878586, PubMed:18204047, PubMed:30643019, PubMed:39914456, PubMed:39814882, PubMed:6554279)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26841837"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27052168"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30552328"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30643019"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32569291"
+                }
+              ],
+              "value": "Component of the membrane attack complex (MAC), a multiprotein complex activated by the complement cascade, which inserts into a target cell membrane and forms a pore, leading to target cell membrane rupture and cell lysis (PubMed:26841837, PubMed:27052168, PubMed:30552328, PubMed:30643019). Complement C5b is generated following cleavage by C5 convertase and initiates formation of the MAC complex: C5b binds sequentially C6, C7, C8 and multiple copies of the pore-forming subunit C9 (PubMed:30552328, PubMed:30643019). During MAC complex assembly, the C5b6 subcomplex, composed of complement C5b and C6, associates with the outer leaflet of target cell membrane, reducing the energy for membrane bending (PubMed:30552328, PubMed:32569291)"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Complement C5b"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "342601"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "36806352"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "37169960"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "37852260"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "5765461"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8182049"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9553099"
+                }
+              ],
+              "value": "Mediator of local inflammatory process released following cleavage by C5 convertase (PubMed:8182049, PubMed:9553099). Acts by binding to its receptor (C5AR1 or C5AR2), activating G protein-coupled receptor signaling and inducing a variety of responses including intracellular calcium release, contraction of smooth muscle, increased vascular permeability, and histamine release from mast cells and basophilic leukocytes (PubMed:36806352, PubMed:37852260, PubMed:37169960, PubMed:8182049, PubMed:9553099). C5a is also a potent chemokine which stimulates the locomotion of polymorphonuclear leukocytes and directs their migration toward sites of inflammation (PubMed:342601, PubMed:37852260, PubMed:37169960, PubMed:5765461, PubMed:8182049, PubMed:9553099)"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "C5a anaphylatoxin"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "34667172"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "36797260"
+                }
+              ],
+              "value": "Membrane attack complex (MAC) assembly is inhibited by CD59, thereby protecting self-cells from damage during complement activation (PubMed:36797260). MAC assembly is also inhibited by clusterin (CLU) chaperones that inhibit polymerization of C9 (PubMed:34667172)"
+            }
+          ],
+          "commentType": "ACTIVITY REGULATION",
+          "molecule": "Complement C5b"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "106884"
+                }
+              ],
+              "value": "In absence of complement activation, the C5 precursor is first processed by the removal of 4 basic residues, forming two chains, beta and alpha, linked by a disulfide bond"
+            }
+          ],
+          "commentType": "SUBUNIT"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18536718"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21217642"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22500023"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22832194"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26841837"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27018802"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27052168"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30552328"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30643019"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31061395"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31871188"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32569291"
+                }
+              ],
+              "value": "Complement C5b is composed of complement C5b and complement C5 beta chains that are associated via disulfide bonds (PubMed:18536718, PubMed:21217642, PubMed:27018802). Component of the membrane attack complex (MAC), composed of complement C5b, C6, C7, C8A, C8B, C8G and multiple copies of the pore-forming subunit C9 (PubMed:22500023, PubMed:22832194, PubMed:26841837, PubMed:27052168, PubMed:30552328, PubMed:30643019, PubMed:31061395, PubMed:32569291). Interacts with the tick complement inhibitors OmCI, RaCI1 and CirpT1 (PubMed:18536718, PubMed:27018802, PubMed:31871188). Interacts with cobra venom factor (CVF) (PubMed:21217642)"
+            }
+          ],
+          "commentType": "SUBUNIT",
+          "molecule": "Complement C5b"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20133685"
+                }
+              ],
+              "value": "(Microbial infection) Interacts with Staphylococcus aureus protein SSL5"
+            }
+          ],
+          "commentType": "SUBUNIT"
+        },
+        {
+          "commentType": "INTERACTION",
+          "interactions": [
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q68DC2",
+                "geneName": "ANKS6",
+                "intActId": "EBI-7054139"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q13520",
+                "geneName": "AQP6",
+                "intActId": "EBI-13059134"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q03591",
+                "geneName": "CFHR1",
+                "intActId": "EBI-3935840"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q7Z7G2",
+                "geneName": "CPLX4",
+                "intActId": "EBI-18013275"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q96BA8",
+                "geneName": "CREB3L1",
+                "intActId": "EBI-6942903"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q15125",
+                "geneName": "EBP",
+                "intActId": "EBI-3915253"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "P23276",
+                "geneName": "KEL",
+                "intActId": "EBI-746662"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q8N743",
+                "geneName": "KIR3DL3",
+                "intActId": "EBI-17272405"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q8N4V1",
+                "geneName": "MMGT1",
+                "intActId": "EBI-6163737"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "O14524-2",
+                "geneName": "NEMP1",
+                "intActId": "EBI-10969203"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "O15173",
+                "geneName": "PGRMC2",
+                "intActId": "EBI-1050125"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "P78424",
+                "geneName": "POU6F2",
+                "intActId": "EBI-12029004"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q8WWF3",
+                "geneName": "SSMEM1",
+                "intActId": "EBI-17280858"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P01031",
+                "intActId": "EBI-8558308"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q91132",
+                "intActId": "EBI-7081824"
+              },
+              "numberOfExperiments": 2,
+              "organismDiffer": true
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "106884"
+                  }
+                ],
+                "value": "Secreted",
+                "id": "SL-0243"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Complement C5b",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30643019"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "31061395"
+                  }
+                ],
+                "value": "Secreted as soluble protein. Inserts into the cell membrane of target cells"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "106884"
+                  }
+                ],
+                "value": "Secreted",
+                "id": "SL-0243"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30552328"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30643019"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "31061395"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "32569291"
+                  }
+                ],
+                "value": "Target cell membrane",
+                "id": "SL-0451"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "C5a anaphylatoxin",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "690134"
+                  }
+                ],
+                "value": "Secreted",
+                "id": "SL-0243"
+              }
+            }
+          ]
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "106884"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12878586"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18204047"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30643019"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "624565"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "6554279"
+                }
+              ],
+              "value": "C5 precursor is first processed by the removal of 4 basic residues, forming two chains, beta and alpha, linked by a disulfide bond (PubMed:106884). During activation of the complement systems, the alpha chain is cleaved into C5a and C5b by the C5 convertase: C5b stays linked to the beta chain, while C5a is released in the plasma (PubMed:12878586, PubMed:18204047, PubMed:30643019, PubMed:624565). The alpha chain is cleaved by the serine protease complement C2b component of the C5 convertase to generate C5a and C5b following activation by the classical, lectin and GZMK complement systems (PubMed:12878586, PubMed:18204047). The alpha chain is cleaved by CFB component of the C5 convertase to generate C5a and C5b following activation by the alternative complement system (PubMed:30643019, PubMed:624565, PubMed:6554279)"
+            }
+          ],
+          "commentType": "PTM"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24521109"
+                }
+              ],
+              "value": "C5 variants are responsible for poor response to eculizumab [MIM:615749]. Eculizumab is a monoclonal antibody highly effective in reducing intravascular hemolysis in patients with paroxysmal nocturnal hemoglobinuria. It specifically binds to the terminal complement protein C5, inhibits its cleavage into C5a and C5b, and prevents the formations of the cytolytic complement pore (PubMed:24521109)"
+            }
+          ],
+          "commentType": "POLYMORPHISM"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Complement component 5 deficiency",
+            "diseaseAccession": "DI-01372",
+            "acronym": "C5D",
+            "description": "A rare defect of the complement classical pathway associated with susceptibility to severe recurrent infections, predominantly by Neisseria gonorrhoeae or Neisseria meningitidis.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "609536"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "7730648"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15995705"
+                  }
+                ],
+                "value": "An association study of C5 haplotypes and genotypes in individuals with chronic hepatitis C virus infection shows that individuals homozygous for the C5_1 haplotype have a significantly higher stage of liver fibrosis than individuals carrying at least 1 other allele"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "WEB RESOURCE",
+          "resourceName": "C5base",
+          "resourceUrl": "https://databases.lovd.nl/shared/genes/C5",
+          "ftp": false,
+          "note": "C5 mutation db"
+        },
+        {
+          "commentType": "WEB RESOURCE",
+          "resourceName": "Wikipedia",
+          "resourceUrl": "https://en.wikipedia.org/wiki/Complement_component_5",
+          "ftp": false,
+          "note": "Complement C5 entry"
+        }
+      ]
+    },
+    "confidence": null,
+    "reference": "https://www.uniprot.org/uniprotkb/P01031",
+    "status": "available",
+    "scope": "protein annotation; does not establish therapeutic efficacy",
+    "evidence_id": "E000004"
+  }
+]

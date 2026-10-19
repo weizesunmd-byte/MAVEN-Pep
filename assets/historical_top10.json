@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "candidate_id": "C03391",
+    "sequence": "KLLSLIKGVIVHRLEGVEGPSLKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "amide",
+    "orientation": "helper_to_b",
+    "mu": 0.9465612736177763,
+    "sigma": 0.005624521131335723,
+    "LCB": 0.9451551433349423
+  },
+  {
+    "rank": 2,
+    "candidate_id": "C03392",
+    "sequence": "KLLSLIKGVIVHRLEGVEGPSLKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "free",
+    "orientation": "helper_to_b",
+    "mu": 0.9410050719822816,
+    "sigma": 0.005068563362747126,
+    "LCB": 0.9397379311415948
+  },
+  {
+    "rank": 3,
+    "candidate_id": "C03271",
+    "sequence": "KLLSLIKGVIVHRLEGVEGPGPGKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "amide",
+    "orientation": "helper_to_b",
+    "mu": 0.9372544754889586,
+    "sigma": 0.0075515580608838334,
+    "LCB": 0.9353665859737376
+  },
+  {
+    "rank": 4,
+    "candidate_id": "C03151",
+    "sequence": "KLLSLIKGVIVHRLEGVEGGGGSKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "amide",
+    "orientation": "helper_to_b",
+    "mu": 0.9328867672505886,
+    "sigma": 0.008301436262910153,
+    "LCB": 0.9308114081848611
+  },
+  {
+    "rank": 5,
+    "candidate_id": "C03272",
+    "sequence": "KLLSLIKGVIVHRLEGVEGPGPGKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "free",
+    "orientation": "helper_to_b",
+    "mu": 0.9316982738534637,
+    "sigma": 0.007065101154255182,
+    "LCB": 0.9299319985648999
+  },
+  {
+    "rank": 6,
+    "candidate_id": "C01271",
+    "sequence": "FNNFTVSFWLRVPKVSASHLGPSLKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "amide",
+    "orientation": "helper_to_b",
+    "mu": 0.9318161408478685,
+    "sigma": 0.00765888768718913,
+    "LCB": 0.9299014189260711
+  },
+  {
+    "rank": 7,
+    "candidate_id": "C03389",
+    "sequence": "KLLSLIKGVIVHRLEGVEGPSLKDMQLGR",
+    "n_chemistry": "acetyl",
+    "c_chemistry": "amide",
+    "orientation": "helper_to_b",
+    "mu": 0.9306864118020773,
+    "sigma": 0.005911464738100303,
+    "LCB": 0.9292085456175523
+  },
+  {
+    "rank": 8,
+    "candidate_id": "C03152",
+    "sequence": "KLLSLIKGVIVHRLEGVEGGGGSKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "free",
+    "orientation": "helper_to_b",
+    "mu": 0.9273305656150939,
+    "sigma": 0.007819830218740205,
+    "LCB": 0.9253756080604089
+  },
+  {
+    "rank": 9,
+    "candidate_id": "C03390",
+    "sequence": "KLLSLIKGVIVHRLEGVEGPSLKDMQLGR",
+    "n_chemistry": "acetyl",
+    "c_chemistry": "free",
+    "orientation": "helper_to_b",
+    "mu": 0.9267176963481522,
+    "sigma": 0.006747626784917249,
+    "LCB": 0.9250307896519229
+  },
+  {
+    "rank": 10,
+    "candidate_id": "C01272",
+    "sequence": "FNNFTVSFWLRVPKVSASHLGPSLKDMQLGR",
+    "n_chemistry": "free",
+    "c_chemistry": "free",
+    "orientation": "helper_to_b",
+    "mu": 0.9262599392123732,
+    "sigma": 0.007067930006894549,
+    "LCB": 0.9244929567106495
+  }
+]

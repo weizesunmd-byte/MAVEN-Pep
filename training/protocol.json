@@ -1,0 +1,91 @@
+{
+  "schema": "maven.retention_ablation.v1",
+  "seed": 20261018,
+  "purpose": "development_diagnostic_no_promotion_no_confirmatory_test",
+  "arms": {
+    "A": {
+      "domain": 4096,
+      "replay": 0
+    },
+    "B": {
+      "domain": 3277,
+      "replay": 819
+    }
+  },
+  "common_domain_visits": 3277,
+  "replaced_slots": 819,
+  "global_batch": 32,
+  "optimizer_updates": 128,
+  "learning_rate": 2e-06,
+  "max_length": 1536,
+  "precision": "FP16 base, FP32 trainable LoRA",
+  "attention": "sdpa",
+  "gradient_checkpointing": true,
+  "fp16_initial_loss_scale": 1024,
+  "max_grad_norm": 1.0,
+  "optimizer": "AdamW default betas (0.9,0.999), eps 1e-8, weight_decay 0",
+  "schedule": "update u=1..128: lr=2e-6*u/4 for u<=4, otherwise lr=2e-6*0.5*(1+cos(pi*(u-4)/125)); all 128 learning rates strictly positive; zero endpoint after budget",
+  "semantic_loss_protocol": {
+    "schema": "maven_final.semantic_loss.v1",
+    "ordinary_token_weight": 1.0,
+    "plan_result_value_weight": 3.0,
+    "diagnostic_value_weight": 4.0,
+    "rationale_value_weight": 0.1,
+    "overlap_policy": "character_mean_rationale_over_semantic_then_action_total"
+  },
+  "action_loss_total_weight": 12,
+  "replay_loss": "ordinary assistant-only, weight1 for all supervised tokens",
+  "sequence_order": "slots.csv order, no dataloader shuffle, same 3277 domain rows at same slot positions",
+  "sampling": "uniform seeded shuffle of sorted IDs; no score based selection; no stratification",
+  "parent_adapter_sha256": "790401e5906dd751a59ef2111bef12ccd58f07d9d9e3e1f9b124dda261164b9c",
+  "base_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "base_weight_sha256": {
+    "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+    "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+    "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+    "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+    "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+  },
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "tokenizer_files_sha256": {
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "special_tokens_map.json": "a36726f7fe394c1324021cac4a9ee3ad6c4f6285c0d98721f9b0b95888ec9905",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "68f2cfe250d0fd2c445bcbeb49183726d6c4dfca493bd10599742410c2fc4a79",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "frozen_training_files_sha256": {
+    "domain_rows.jsonl": "e864bb6cfaf83a7c9c306e1f975493048d2bade849aabffef058c9cfa89eb342",
+    "replay_rows.jsonl": "1f467b3c581c48101cc608ffb141f904979b7e83a11c5fb38055d6e57355715a",
+    "slots.csv": "e79006fb6349a2549d37b117183842472c2406caf13c9c78dc58f2df6ed07b91"
+  },
+  "base_files_sha256": {
+    "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+    "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+    "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+    "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+    "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+    "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "model.safetensors.index.json": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc"
+  },
+  "original_protocol_sha256": "be2abd6877f319c3013e03f71f4ad5b254c004a8c0f61e24eb71a56f634ca5d3",
+  "public_port_note": "Deployment metadata omitted. Same fixed-budget calculation; exact external replay, tokenizer, base weights and parent adapter required. The public port is not the historical worker byte sequence.",
+  "original_domain_rows_sha256": "45cdf96c2d7481d1b1d374e626bdcd851ab3e3e78e8a4a707b580405b7a71e03",
+  "public_training_projection": "504 source_refs.path metadata values replaced with portable asset names. Messages, targets, inputs, case order and training slots unchanged."
+}

@@ -1,0 +1,236 @@
+{
+  "schema": "mavenpep2.public-component-catalog.v1",
+  "catalog_scope": "historical_frozen_priors_runtime_identity_withheld",
+  "helpers": [
+    {
+      "module_id": "helpers_01",
+      "sequence": "KLLSLIKGVIVHRLEGVE",
+      "prior": 0.85,
+      "uncertainty": 0.35
+    },
+    {
+      "module_id": "helpers_02",
+      "sequence": "FNNFTVSFWLRVPKVSASHL",
+      "prior": 0.75,
+      "uncertainty": 0.45
+    },
+    {
+      "module_id": "helpers_03",
+      "sequence": "AKFVAAWTLKAAA",
+      "prior": 0.8,
+      "uncertainty": 0.35
+    },
+    {
+      "module_id": "helpers_04",
+      "sequence": "QYIKANSKFIGITEL",
+      "prior": 0.7,
+      "uncertainty": 0.4
+    }
+  ],
+  "linkers": [
+    {
+      "module_id": "linkers_01",
+      "sequence": "GPSL",
+      "prior": 0.85,
+      "uncertainty": 0.3
+    },
+    {
+      "module_id": "linkers_02",
+      "sequence": "GPGPG",
+      "prior": 0.8,
+      "uncertainty": 0.35
+    },
+    {
+      "module_id": "linkers_03",
+      "sequence": "GGGGS",
+      "prior": 0.75,
+      "uncertainty": 0.4
+    },
+    {
+      "module_id": "linkers_04",
+      "sequence": "EAAAK",
+      "prior": 0.7,
+      "uncertainty": 0.45
+    },
+    {
+      "module_id": "linkers_05",
+      "sequence": "KK",
+      "prior": 0.4,
+      "uncertainty": 0.6
+    }
+  ],
+  "cores": [
+    {
+      "module_id": "cores_01",
+      "sequence": "KDMQLGR",
+      "family": "core_retained"
+    },
+    {
+      "module_id": "cores_02",
+      "sequence": "DMQLGR",
+      "family": "truncation_probe"
+    },
+    {
+      "module_id": "cores_03",
+      "sequence": "KDMQLG",
+      "family": "truncation_probe"
+    },
+    {
+      "module_id": "cores_04",
+      "sequence": "CKDMQLGR",
+      "family": "flank_optimized"
+    },
+    {
+      "module_id": "cores_05",
+      "sequence": "SHKDMQLGR",
+      "family": "flank_optimized"
+    },
+    {
+      "module_id": "cores_06",
+      "sequence": "NISHKDMQLGR",
+      "family": "flank_optimized"
+    },
+    {
+      "module_id": "cores_07",
+      "sequence": "CANISHKDMQLGR",
+      "family": "flank_optimized"
+    },
+    {
+      "module_id": "cores_08",
+      "sequence": "RDMQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_09",
+      "sequence": "KEMQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_10",
+      "sequence": "KNMQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_11",
+      "sequence": "KDLQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_12",
+      "sequence": "KDIQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_13",
+      "sequence": "KDMNLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_14",
+      "sequence": "KDMELGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_15",
+      "sequence": "KDMQIGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_16",
+      "sequence": "KDMQVGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_17",
+      "sequence": "KDMQLAR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_18",
+      "sequence": "KDMQLSR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_19",
+      "sequence": "KDMQLGK",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_20",
+      "sequence": "REMQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_21",
+      "sequence": "KELQLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_22",
+      "sequence": "KDLNLGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_23",
+      "sequence": "KDMNIGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_24",
+      "sequence": "KDMQIAR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_25",
+      "sequence": "KDMQLAK",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_26",
+      "sequence": "RDMQLGK",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_27",
+      "sequence": "KNMELGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_28",
+      "sequence": "KDIQVGR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_29",
+      "sequence": "KDMELSR",
+      "family": "conservative_mimotope"
+    },
+    {
+      "module_id": "cores_30",
+      "sequence": "RDLQLGR",
+      "family": "conservative_mimotope"
+    }
+  ],
+  "orientations": [
+    "helper_to_b",
+    "b_to_helper"
+  ],
+  "terminal_chemistries": [
+    {
+      "n_chemistry": "free",
+      "c_chemistry": "free"
+    },
+    {
+      "n_chemistry": "free",
+      "c_chemistry": "amide"
+    },
+    {
+      "n_chemistry": "acetyl",
+      "c_chemistry": "free"
+    },
+    {
+      "n_chemistry": "acetyl",
+      "c_chemistry": "amide"
+    }
+  ]
+}
